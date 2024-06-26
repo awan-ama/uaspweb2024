@@ -48,7 +48,7 @@
                 
                 <button type="submit">Daftar</button>
                 
-                <p>Sudah Mempunyai Akun? <a href="#">Login</a></p>
+                <p>Sudah Mempunyai Akun? <a href="<?= base_url('login') ?>">Login</a></p>
             </form>
         </div>
     </div>
