@@ -11,3 +11,4 @@ $routes->get('/', 'Home::login_view');
 $routes->get('login', 'Home::login_view');
 $routes->get('register', 'Home::register_view');
 
+
