@@ -1,11 +1,15 @@
 <?php
-
 namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index(): string
+    public function login()
     {
-        return view('welcome_message');
+        return view('login_view');
+    }
+
+    public function register()
+    {
+        return view('register_view');
     }
 }
