@@ -16,7 +16,7 @@
                 <div class="logo-and-title">
                     <img src="assets/images/ulm.png" alt="Logo Universitas Lambung Mangkurat" class="logo">
                     <div class="title">
-                        <h1>Fakultas Teknik</h1>
+                        <h1>Fakultas Teknik test</h1>
                         <h2>Universitas Lambung Mangkurat</h2>
                     </div>
                 </div>
