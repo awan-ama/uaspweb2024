@@ -175,7 +175,7 @@
                         <img src="assets/images/orang.jpeg" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Izin Penelitian TA Lulus FT</h3>
-                            <p class="mt-2">Deskripsi layanan 1</p>
+                            <p class="mt-2">Layanan ini digunakan untuk pengajuan Surat Izin Penelitian Tugas Akhir di laboratorium Fakultas Teknik ULM</p>
                         </div>
                     </div>
                     <!-- Card 2 -->
@@ -183,7 +183,7 @@
                         <img src="assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Kendali Kegiatan Ormawa</h3>
-                            <p class="mt-2">Deskripsi layanan 2</p>
+                            <p class="mt-2">layanan ini digunakn untuk pengajuan proposal atau laporan kegiatan organisasi mahasiswa FT ULM</p>
                         </div>
                     </div>
                     <!-- Card 3 -->
@@ -191,31 +191,31 @@
                         <img src="assets/images/orang.jpeg" alt="Layanan 3" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Keterangan Bebas Lab & Perpus</h3>
-                            <p class="mt-2">Deskripsi layanan 3</p>
+                            <p class="mt-2">Digunakan ntuk pengajuan Surat Keterangan Bebas Lab dan Perpus di lingkunan FT sebagai persyaratan Wisuda Mahasiswa FT ULM</p>
                         </div>
                     </div>
                     <!-- Card 4 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
                         <img src="assets/images/orang.jpeg" alt="Layanan 4" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
-                            <h3 class="text-lg font-bold">Kartu PKL/TA</h3>
-                            <p class="mt-2">Deskripsi layanan 4</p>
+                            <h3 class="text-lg font-bold">Kotak Pos FT</h3>
+                            <p class="mt-2">Layanan ini disediakan untuk memberikan kemudahan bagi para pihak dalam menjalin komunikasi dengan pihak FT ULM</p>
                         </div>
                     </div>
                     <!-- Card 5 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
                         <img src="assets/images/orang.jpeg" alt="Layanan 5" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
-                            <h3 class="text-lg font-bold">Legalitas Akreditasi Program Studi</h3>
-                            <p class="mt-2">Deskripsi layanan 5</p>
+                            <h3 class="text-lg font-bold">Legalisir Akreditasi Program Studi</h3>
+                            <p class="mt-2">Layanan ini digunakan untuk pengajuan legalisir Akreditasi Program Studi untuk kebutuhan Dokumen Legal Bertanda Tangan</p>
                         </div>
                     </div>
                     <!-- Card 6 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
                         <img src="assets/images/orang.jpeg" alt="Layanan 6" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
-                            <h3 class="text-lg font-bold">Legalitas Ijazah</h3>
-                            <p class="mt-2">Deskripsi layanan 6</p>
+                            <h3 class="text-lg font-bold">Legalisir Ijazah</h3>
+                            <p class="mt-2">Layanan ini digunakan untuk pengajuan legalisir ijaszah secara online dan dapat diambil secara offline atau dikirim melalui COD</p>
                         </div>
                     </div>
                     <!-- Card 7 -->
@@ -223,7 +223,7 @@
                         <img src="assets/images/orang.jpeg" alt="Layanan 7" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Legalitas Transkrip Akademik</h3>
-                            <p class="mt-2">Deskripsi layanan 7</p>
+                            <p class="mt-2">Layanan ini digunakan untuk penggajuan</p>
                         </div>
                     </div>
                     <!-- Card 8 -->

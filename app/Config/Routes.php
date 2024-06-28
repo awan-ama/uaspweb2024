@@ -33,6 +33,7 @@ $routes->group('user', function ($routes) {
      $routes->get('e_response/tanyaFT/tanggapan', 'User::tanyaFT');
 });
 
+$routes->get('eservices','Home::eservices');
 // $routes->group('logout', function ($routes) {
 //     $routes->get('/', 'Logout::index');
 // });
