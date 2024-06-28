@@ -21,4 +21,8 @@ class Home extends BaseController
     {
         return view('e-services_view');
     }
+    public function ecommandcenter()
+    {
+        return view('e-command_center_view');
+    }
 }
