@@ -17,4 +17,8 @@ class Home extends BaseController
     {
         return view('dashboard_view');
     }
+    public function eservices()
+    {
+        return view('e-services_view');
+    }
 }
