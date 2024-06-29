@@ -32,4 +32,7 @@ class Home extends BaseController
     public function tanyaft1(){
         return view('tanyaft1_view');
     }
+    public function pengajuantanya(){
+        return view('Pengajuan_tanyaft_view');
+    }
 }
