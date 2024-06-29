@@ -36,11 +36,14 @@ $routes->group('user', function ($routes) {
      $routes->get('e_response/tanyaFT/tanggapan', 'User::tanggapanTanyaFT');
 });
 
-// $routes->get('eservices','Home::eservices');
-// $routes->get('ecommandcenter','Home::ecommandcenter');
-// $routes->get('eresponse','Home::eresponse');
-// $routes->get('tanyaft1','Home::tanyaft1');
-// $routes->get('pengajuantanya','Home::pengajuantanya');
+ $routes->get('eservices','Home::eservices');
+ $routes->get('ecommandcenter','Home::ecommandcenter');
+ $routes->get('eresponse','Home::eresponse');
+ $routes->get('tanyaft1','Home::tanyaft1');
+ $routes->get('pengajuantanya','Home::pengajuantanya');
+ $routes->get('dashboard','Home::dashboard');
+$routes->get('respontanya','Home::respontanya');
+
 $routes->group('logout', function ($routes) {
     $routes->get('/', 'Logout::logout');
 });
