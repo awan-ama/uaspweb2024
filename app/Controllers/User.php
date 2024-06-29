@@ -28,7 +28,7 @@ class User extends BaseController
         return view('tanyaft1_view');
     }
     public function pengajuanTanyaFT(){
-        return view('Pengajuan_tanyaft_view');
+        return view('pengajuan_tanyaft_view');
     }
 
     public function detailTanyaFT(){
@@ -36,6 +36,6 @@ class User extends BaseController
     }
 
     public function tanggapanTanyaFT(){
-        return view('tanggapan_tanyaft_view');
+        return view('response-tanyaft_view');
     }
 }
