@@ -26,9 +26,12 @@
             <form>
                 <label for="fullname">Nama Lengkap *</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Masukkan Nama Lengkap" required>
+
+                <label for="nim">NIM *</label>
+                <input type="text" id="nim" name="nim" placeholder="Masukkan NIM" required>
                 
-                <label for="phone">No. Telephone *</label>
-                <input type="text" id="phone" name="phone" placeholder="Masukkan No. Telephone" required>
+                <label for="phone">No. Telepon *</label>
+                <input type="text" id="phone" name="phone" placeholder="Masukkan No. Telepon" required>
                 
                 <label for="email">Email *</label>
                 <input type="email" id="email" name="email" placeholder="Masukkan Email" required>
