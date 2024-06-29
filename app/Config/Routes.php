@@ -12,12 +12,12 @@ use CodeIgniter\Router\RouteCollection;
 
 $routes->group('login', function ($routes) {
    $routes->get('/', 'Login::login');
-   $routes->post('/', 'Login::auth');
+   $routes->post('/', 'Login::save');
 });
 // //will be replaced when the UI and database is complete
-// // $routes->group('login', ['filter' => 'redirectAuth'], function ($routes) {
-// //     $routes->get('/', 'Login::index');
-// //     $routes->post('/', 'Login::auth');
+// // $routes->group('login', ['filter' => 'redirectIfAuthenticated'], function ($routes) {
+// //     $routes->get('/', 'Login::login');
+// //     $routes->post('/', 'Login::save');
 // // });
 
 $routes->group('register', function ($routes) {
