@@ -1,5 +1,7 @@
 <?php
+
 namespace App\Controllers;
+
 use App\Models\UserModel;
 
 class Login extends BaseController
@@ -9,7 +11,7 @@ class Login extends BaseController
     public function __construct()
     {
         $this->model = new UserModel();
-        $this->helpers = ['form', 'url'];
+        helper(['form', 'url', 'session']); // Add 'session' helper here
     }
 
     public function login()
@@ -24,40 +26,39 @@ class Login extends BaseController
     {
         $data = $this->request->getPost(['nim', 'password']);
 
-        if (! $this->validateData($data, [
+        if (! $this->validate([
             'nim' => 'required',
             'password' => 'required'
         ])) {
             return $this->login();
         }
 
-        $nim = $this->request->getPost('nim');
-        $password = $this->request->getPost('password');
+        $nim = $data['nim'];
+        $password = $data['password'];
 
-        $credentials = ['nim' => $nim];
-
-        $user = $this->model->where($credentials)
+        $user = $this->model->where('nim', $nim)
             ->first();
 
         if (! $user) {
             session()->setFlashdata('error', 'Username atau password anda salah.');
-            return redirect()->back();
+            return redirect()->to('login'); 
         }
 
         $passwordCheck = password_verify($password, $user['password']);
 
         if (! $passwordCheck) {
             session()->setFlashdata('error', 'Username atau password anda salah.');
-            return redirect()->back();
+            return redirect()->to('login'); 
         }
 
+        
         $userData = [
             'fullname' => $user['fullname'],
             'nim' => $user['nim'],
-            'logged_in' => TRUE
+            'logged_in' => true 
         ];
 
         session()->set($userData);
-        return redirect()->to(base_url('user/dashboard'));
+        return redirect()->to('user/dashboard');
     }
 }
