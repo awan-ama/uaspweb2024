@@ -58,6 +58,6 @@ class Login extends BaseController
         ];
 
         session()->set($userData);
-        return redirect()->to(base_url('/'));
+        return redirect()->to(base_url('user/dashboard'));
     }
 }
