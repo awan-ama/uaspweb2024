@@ -168,7 +168,7 @@
 
             <!-- Tanya FT Section -->
             <section class="mb-6">
-                <a href="#" class="text-blue-500 mb-4 text-2x1 inline-block">Kembali</a> <br>
+                <a href="e-response" class="text-blue-500 mb-4 text-2x1 inline-block">Kembali</a> <br>
                 <div class="flex mb-4">
                     <img src="assets/images/orang.jpeg" alt="Tanya FT" class="rounded-md w-1/4 h-auto mr-4">
                     <div>
@@ -207,7 +207,7 @@
                         </tbody>
                     </table>
                 </div>
-                <button class="mt-4 bg-blue-500 text-white py-2 align-items-sm-end px-4 rounded">Tambah Pengajuan</button>
+                <a href="tanyaFT/new" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded inline-block">Tambah Pengajuan</a>
             </section>
         </main>
     </div>

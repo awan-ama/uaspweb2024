@@ -56,14 +56,15 @@
                         </div>
                     </div>
                     <!-- Card 2 -->
-                    <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
-                        <div class="p-4">
-                            <h3 class="text-lg font-bold">Tanya FT</h3>
-                            <p class="mt-2">Layanan ini disediakan untuk menyampaikan permohonan informasi publik terkait Fakultas teknik ULM </p>
+                    <a href="e-response/tanyaFT" class="block bg-white p-4 rounded-md shadow-md card hover:shadow-lg transition duration-300">
+                        <div>
+                            <img src="assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                            <div class="p-4">
+                                <h3 class="text-lg font-bold">Tanya FT</h3>
+                                <p class="mt-2">Layanan ini disediakan untuk menyampaikan permohonan informasi publik terkait Fakultas Teknik ULM</p>
+                            </div>
                         </div>
-                    </div>
-                    </div>
+                    </a>
                 </div>
             </section>
         </main>
