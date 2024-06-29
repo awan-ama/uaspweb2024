@@ -29,6 +29,20 @@
 
                 <label for="nim">NIM *</label>
                 <input type="text" id="nim" name="nim" placeholder="Masukkan NIM" required>
+
+                <label for="department">Program Studi *</label>
+                <select id="department" name="department" required>
+                    <option value="">Pilih Program Studi</option>
+                    <option value="sipil">Teknik Sipil</option>
+                    <option value="arsitektur">Arsitektur</option>
+                    <option value="tambang">Teknik Pertambangan</option>
+                    <option value="kimia">Teknik Kimia</option>
+                    <option value="lingkungan">Teknik Lingkungan</option>
+                    <option value="mesin">Teknik Mesin</option>
+                    <option value="informasi">Teknologi Informasi</option>
+                    <option value="geologi">Rekayasa Geologi</option>
+                    <option value="elektro">Rekayasa Elektro</option>
+                </select>
                 
                 <label for="phone">No. Telepon *</label>
                 <input type="text" id="phone" name="phone" placeholder="Masukkan No. Telepon" required>
@@ -39,8 +53,7 @@
                 <label for="role">Masuk Sebagai *</label>
                 <select id="role" name="role" required>
                     <option value="">Pilih Jenis Pengguna</option>
-                    <option value="student">Contoh</option>
-                    <!-- Add more options as needed -->
+                    <option value="student">Mahasiswa</option>
                 </select>
                 
                 <label for="password">Password *</label>
