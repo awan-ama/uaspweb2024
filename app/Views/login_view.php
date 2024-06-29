@@ -22,9 +22,10 @@
                     <h3 class="text-lg font-semibold text-gray-700">Login ke Akun Anda</h3>
                     <p class="text-gray-600">Masukkan Username dan password untuk login!</p>
                 </div>
-                <form>
-                    <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
-                    <input type="text" id="username" name="username" placeholder="Masukkan Username" required class="block w-full p-3 border border-gray-300 rounded mb-4">
+                <?= form_open('login'); ?>
+                <form action="/login/save" method="post" id="text-editor">
+                <label for="nim" class="block text-sm font-medium text-gray-700">Username</label>
+                    <input type="text" id="nim" name="nim" placeholder="Masukkan Username" required class="block w-full p-3 border border-gray-300 rounded mb-4">
 
                     <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
                     <input type="password" id="password" name="password" placeholder="Masukkan Password" required class="block w-full p-3 border border-gray-300 rounded mb-4">
@@ -37,6 +38,7 @@
 
                     <p class="text-center text-gray-600 mt-4">Belum Mempunyai Akun? <a href="<?= base_url('register') ?>" class="text-blue-500">Daftar</a></p>
                 </form>
+                <?= form_close(); ?>
             </div>
         </div>
     </div>

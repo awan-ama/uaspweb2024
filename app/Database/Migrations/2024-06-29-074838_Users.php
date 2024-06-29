@@ -1,32 +1,30 @@
 <?php
 
 namespace App\Database\Migrations;
-
 use CodeIgniter\Database\Migration;
 
-class Migration_Create_Users extends Migration
+class Users extends Migration
 {
     public function up()
-    {
+        {
         $this->forge->addField([
             'nim' => [
                 'type' => 'VARCHAR',
                 'constraint' => 20,
                 'primary' => true,
- 	            'null' => false,
                 'unique' => true,
             ],
-            'nama_lengkap' => [
+            'fullname' => [
                 'type' => 'VARCHAR',
                 'constraint' => 100,
                 'null' => false,
             ],
-            'program_studi' => [
+            'department' => [
                 'type' => 'ENUM',
-                'constraint' => ['sipil', 'arsitektur', 'tambang', 'kimia', 'lingkungan', 'mesin', 'informasi', 'geologi', 'elektro'], 
+                'constraint' => ['sipil', 'arsitektur', 'tambang', 'kimia', 'lingkungan', 'mesin', 'informasi', 'geologi', 'elektro'],
                 'null' => false,
             ],
-            'nomor_hp' => [
+            'phone' => [
                 'type' => 'VARCHAR',
                 'constraint' => 20,
                 'null' => false,
@@ -37,7 +35,7 @@ class Migration_Create_Users extends Migration
                 'unique' => true, 
                 'null' => false,
             ],
-            'identitas' => [
+            'role' => [
                 'type' => 'ENUM',
                 'constraint' => ['student'],
                 'null' => false,
@@ -47,15 +45,15 @@ class Migration_Create_Users extends Migration
                 'constraint' => 255,
                 'null' => false,
             ],
-        ]);
-
-        $this->forge->addKey('nim', true);
-
-        $this->forge->createTable('users', true);
+            ]);
+        
+            $this->forge->addKey('nim', true);
+        
+            $this->forge->createTable('users', true);
     }
-
-    public function down()
-    {
-        $this->forge->dropTable('users', true);
-    }
+        public function down()
+        {
+            $this->forge->dropTable('users', true);
+        }
 }
+

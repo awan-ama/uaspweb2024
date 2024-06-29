@@ -5,15 +5,15 @@ use CodeIgniter\Model;
 class UserModel extends Model
 {
     protected $table = 'users';
-    protected $allowedFields = ['nim', 'nama_lengkap', 'program_studi', 'nomor_hp', 'email', 'identitas', 'password'];
+    protected $allowedFields = ['nim', 'fullname', 'department', 'phone', 'email', 'role', 'password'];
 
     protected $validationRules = [
-        'nim' => 'required',
-        'nama_lengkap' => 'required',
-        'program_studi' => 'required',
-        'nomor_hp' => 'required',
-        'email' => 'required|valid_email|is_unique[user.email]',
-        'identitas' => 'required',
+        'nim' => 'required|is_unique[users.nim]',
+        'fullname' => 'required',
+        'department' => 'required',
+        'phone' => 'required',
+        'email' => 'required|valid_email|is_unique[users.email]',
+        'role' => 'required',
         'password' => 'required|min_length[4]'
     ];
 

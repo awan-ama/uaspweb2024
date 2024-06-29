@@ -22,7 +22,8 @@
                     <h3 class="text-lg font-semibold text-gray-700">Buat Sebuah Akun</h3>
                     <p class="text-gray-600">Isi data diri dengan benar!</p>
                 </div>
-                <form>
+                <?= form_open('register'); ?>
+                <form action="" method="post" id="text-editor">
                     <label for="fullname" class="block text-sm font-medium text-gray-700">Nama Lengkap *</label>
                     <input type="text" id="fullname" name="fullname" placeholder="Masukkan Nama Lengkap" required class="block w-full p-3 border border-gray-300 rounded mb-4">
 
@@ -65,6 +66,7 @@
 
                     <p class="text-center text-gray-600 mt-4">Sudah Mempunyai Akun? <a href="<?= base_url('login') ?>" class="text-blue-500">Login</a></p>
                 </form>
+                <?= form_close(); ?>
             </div>
         </div>
     </div>

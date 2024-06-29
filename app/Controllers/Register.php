@@ -22,7 +22,7 @@ class Register extends BaseController
 
     public function save()
     {
-        $data = $this->request->getPost(['nim', 'nama_lengkap', 'program_studi', 'nomor_hp', 'email', 'identitas', 'password']);
+        $data = $this->request->getPost(['nim', 'fullname', 'department', 'phone', 'email', 'role', 'password']);
 
         if (! $this->validateData($data, $this->model->validationRules)) {
             return $this->register();

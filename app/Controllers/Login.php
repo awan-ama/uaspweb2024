@@ -52,7 +52,7 @@ class Login extends BaseController
         }
 
         $userData = [
-            'nama_lengkap' => $user['nama_lengkap'],
+            'fullname' => $user['fullname'],
             'nim' => $user['nim'],
             'logged_in' => TRUE
         ];
