@@ -36,7 +36,7 @@
         <!-- Sidebar -->
         <aside class="bg-white w-64 shadow-md sidebar-sticky">
             <div class="p-6 flex items-center">
-                <img src="assets/images/ulm.png" alt="Logo" class="h-12 w-12 mr-3">
+                <img src="/assets/images/ulm.png" alt="Logo" class="h-12 w-12 mr-3">
                 <div>
                     <h1 class="text-xl font-bold">Fakultas Teknik</h1>
                     <p class="text-gray-600 text-sm">Universitas Lambung Mangkurat</p>
@@ -159,7 +159,7 @@
                     </button>
                     <div class="flex items-center">
                         <span class="mr-4">Maulana</span>
-                        <img src="assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
+                        <img src="/assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
                     </div>
                 </div>
             </header>
@@ -206,42 +206,42 @@
                 <h2 class="text-xl font-semibold mb-4">Mungkin yang kamu butuhkan</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="assets/images/orang.jpeg" alt="Surat Keterangan Lulus" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/orang.jpeg" alt="Surat Keterangan Lulus" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Keterangan Lulus</h3>
                             <p class="mt-2">Dapatkan Surat Kelulusan dengan Mudah melalui layanan ini</p>
                         </div>
                     </div>
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="assets/images/orang.jpeg" alt="Surat Pengantar Izin PKL" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/orang.jpeg" alt="Surat Pengantar Izin PKL" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Pengantar Izin PKL</h3>
                             <p class="mt-2">Berkas untuk PKL</p>
                         </div>
                     </div>
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="assets/images/orang.jpeg" alt="Surat Pengantar Izin Penelitian" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/orang.png" alt="Surat Pengantar Izin Penelitian" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Pengantar Izin Penelitian</h3>
                             <p class="mt-2">Berkas untuk Penelitian</p>
                         </div>
                     </div>
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="assets/images/orang.jpeg" alt="Permintaan Data MK/PKL/TA" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/orang.jpeg" alt="Permintaan Data MK/PKL/TA" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Permintaan Data MK/PKL/TA</h3>
                             <p class="mt-2">Surat Permintaan Data Mata Kuliah / Praktek Kerja Lapangan / Tugas Akhir Mahasiswa FT ULM</p>
                         </div>
                     </div>
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="assets/images/orang.jpeg" alt="Surat Tugas PKL/TA" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/orang.jpeg" alt="Surat Tugas PKL/TA" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Tugas PKL/TA</h3>
                             <p class="mt-2">Pengajuan Surat Tugas untuk Praktek Kerja Lapangan / Tugas Akhir</p>
                         </div>
                     </div>
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="assets/images/orang.jpeg" alt="MBKM FT ULM" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/orang.jpeg" alt="MBKM FT ULM" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">MBKM FT ULM</h3>
                             <p class="mt-2">Layanan ini digunakan untuk pendaftaran dan pengajuan program MBKM Fakultas Teknik Universitas Lambung Mangkurat</p>
