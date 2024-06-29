@@ -207,7 +207,7 @@
                         </tbody>
                     </table>
                 </div>
-                <a href="tanyaFT/new" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded inline-block">Tambah Pengajuan</a>
+                <a href= <?= base_url('user/e-response/tanyaFT/new') ?> class="mt-4 bg-blue-500 text-white py-2 px-4 rounded inline-block">Tambah Pengajuan</a>
             </section>
         </main>
     </div>
