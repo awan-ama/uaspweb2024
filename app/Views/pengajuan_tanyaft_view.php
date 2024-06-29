@@ -179,29 +179,34 @@
                 <h2 class="text-2xl font-semibold mb-4">Tambah Pengajuan Tanya FT</h2>
                 <form action="#" class="bg-white p-6 rounded-lg shadow-md">
                     <div class="mb-4">
-                        <label for="nama" class="block text-gray-700 font-semibold mb-2">Nama Lengkap <span class="text-red-500">*</span></label>
-                        <input type="text" id="nama" name="nama" class="input-gray w-full rounded-md shadow-sm" value="Maulana">
+                        <label for="fullname" class="block text-gray-700 font-semibold mb-2">Nama Lengkap <span class="text-red-500">*</span></label>
+                        <input type="text" id="fullname" name="fullname" class="input-gray w-full rounded-md shadow-sm" value="Maulana">
                     </div>
                     <div class="mb-4">
                         <label for="nim" class="block text-gray-700 font-semibold mb-2">NIM <span class="text-red-500">*</span></label>
                         <input type="text" id="nim" name="nim" class="input-gray w-full rounded-md shadow-sm" value="2010917300008">
                     </div>
                     <div class="mb-4">
-                        <label for="program_studi" class="block text-gray-700 font-semibold mb-2">Program Studi <span class="text-red-500">*</span></label>
-                        <select id="program_studi" name="program_studi" class="input-gray w-full rounded-md shadow-sm">
-                            <option value="Teknologi Informasi">Teknologi Informasi</option>
-                            <option value="Teknik Sipil">Teknik Sipil</option>
-                            <option value="Teknik Mesin">Teknik Mesin</option>
-                            <option value="Teknik Elektro">Teknik Elektro</option>
+                        <label for="department" class="block text-gray-700 font-semibold mb-2">Program Studi <span class="text-red-500">*</span></label>
+                        <select id="department" name="department" class="input-gray w-full rounded-md shadow-sm">
+                            <option value="sipil">Teknik Sipil</option>
+                            <option value="arsitektur">Arsitektur</option>
+                            <option value="tambang">Teknik Pertambangan</option>
+                            <option value="kimia">Teknik Kimia</option>
+                            <option value="lingkungan">Teknik Lingkungan</option>
+                            <option value="mesin">Teknik Mesin</option>
+                            <option value="informasi">Teknologi Informasi</option>
+                            <option value="geologi">Rekayasa Geologi</option>
+                            <option value="elektro">Rekayasa Elektro</option>
                         </select>
                     </div>
                     <div class="mb-4">
-                        <label for="pertanyaan" class="block text-gray-700 font-semibold mb-2">Pertanyaan <span class="text-red-500">*</span></label>
-                        <textarea id="pertanyaan" name="pertanyaan" rows="4" class="input-gray w-full rounded-md shadow-sm" placeholder="Masukkan Pertanyaan"></textarea>
+                        <label for="question" class="block text-gray-700 font-semibold mb-2">Pertanyaan <span class="text-red-500">*</span></label>
+                        <textarea id="question" name="question" rows="4" class="input-gray w-full rounded-md shadow-sm" placeholder="Masukkan Pertanyaan"></textarea>
                     </div>
                     <div class="mb-4">
-                        <label for="berkas" class="block text-gray-700 font-semibold mb-2">Berkas Pendukung</label>
-                        <input type="file" id="berkas" name="berkas" class="w-full border-gray-300 rounded-md shadow-sm">
+                        <label for="form_file" class="block text-gray-700 font-semibold mb-2">Berkas Pendukung</label>
+                        <input type="file" id="form_file" name="form_file" class="w-full border-gray-300 rounded-md shadow-sm">
                         <p class="text-gray-500 text-sm mt-2">* Upload file dengan format jpg, png, jpeg maksimal 2 MB</p>
                     </div>
                     <div class="flex justify-end">
