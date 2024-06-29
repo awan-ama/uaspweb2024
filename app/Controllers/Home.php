@@ -35,4 +35,7 @@ class Home extends BaseController
     public function pengajuantanya(){
         return view('Pengajuan_tanyaft_view');
     }
+    public function ecommerce(){
+        return view('e-commerce_view');
+    }
 }

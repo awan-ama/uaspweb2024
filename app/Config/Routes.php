@@ -38,6 +38,7 @@ $routes->get('ecommandcenter','Home::ecommandcenter');
 $routes->get('eresponse','Home::eresponse');
 $routes->get('tanyaft1','Home::tanyaft1');
 $routes->get('pengajuantanya','Home::pengajuantanya');
+$routes->get('ecommerce','Home::ecommerce');
 // $routes->group('logout', function ($routes) {
 //     $routes->get('/', 'Logout::index');
 // });
