@@ -34,6 +34,7 @@ $routes->group('user', function ($routes) {
      $routes->get('e_response/tanyaFT/new', 'User::pengajuanTanyaFT');
      $routes->get('e_response/tanyaFT/detail', 'User::detailTanyaFT');
      $routes->get('e_response/tanyaFT/tanggapan', 'User::tanggapanTanyaFT');
+     $routes->get('e_commerce','User::eCommerce');
 });
 
  $routes->get('eservices','Home::eservices');
