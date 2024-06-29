@@ -20,8 +20,8 @@ $routes->group('register', function ($routes) {
     $routes->post('/', 'Register::save');
 });
 
-$routes->group('user', function ($routes) {
-     $routes->get('/', 'User::dashboard');
+$routes->group('user', ['filter' => 'authenticate'], function ($routes) {
+     $routes->get('dashboard', 'User::dashboard');
      $routes->get('e-services','User::eServices');
      $routes->get('e-command-center','User::eCommandCenter');
      $routes->get('e-commerce','User::eCommerce');

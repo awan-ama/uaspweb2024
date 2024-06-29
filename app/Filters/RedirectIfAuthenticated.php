@@ -11,7 +11,7 @@ class RedirectIfAuthenticated implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         if (session('logged_in')) {
-            return redirect()->to(site_url('dashboard'));
+            return redirect()->to(site_url('user/dashboard'));
         }
 
     }
