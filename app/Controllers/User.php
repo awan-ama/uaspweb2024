@@ -20,6 +20,10 @@ class User extends BaseController
         return view('e-response_view');
     }
 
+    public function eCommerce(){
+        return view('e-commerce_view');
+    }
+
     public function tanyaFT(){
         return view('tanyaft1_view');
     }
