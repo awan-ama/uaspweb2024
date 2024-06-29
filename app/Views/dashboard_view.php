@@ -60,7 +60,7 @@
                     <span class="text-gray-500 uppercase text-xs">Layanan</span>
                     <ul>
                         <li class="mb-4">
-                            <a href="e_services" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="user/e-services" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 11h18M3 15h18M3 19h18" />
                                 </svg>
@@ -68,7 +68,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="e_command_center" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="user/e-command-center" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
                                 </svg>
@@ -76,7 +76,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="e_response" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="user/e-response" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m-7 5h10a2 2 0 002-2v-3a2 2 0 00-2-2H5a2 2 0 00-2 2v3a2 2 0 002 2zM4 3h16a2 2 0 012 2v3a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2z" />
                                 </svg>
@@ -84,7 +84,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="e_commerce" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="user/e-commerce" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h16v16H4z" />
                                 </svg>
