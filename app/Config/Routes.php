@@ -35,6 +35,8 @@ $routes->group('user', function ($routes) {
 
 $routes->get('eservices','Home::eservices');
 $routes->get('ecommandcenter','Home::ecommandcenter');
+$routes->get('eresponse','Home::eresponse');
+$routes->get('tanyaft1','Home::tanyaft1');
 // $routes->group('logout', function ($routes) {
 //     $routes->get('/', 'Logout::index');
 // });

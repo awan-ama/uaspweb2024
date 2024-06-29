@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-Services</title>
+    <title>Tanya FT</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .card {
@@ -70,7 +70,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="e-command-center.html" class="flex items-center text-blue-500 font-bold bg-blue-100 p-2 rounded">
+                            <a href="e-command-center.html" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
                                 </svg>
@@ -78,7 +78,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="e-response.html" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="e-response.html" class="flex items-center text-blue-500 font-bold bg-blue-100 p-2 rounded">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m-7 5h10a2 2 0 002-2v-3a2 2 0 00-2-2H5a2 2 0 00-2 2v3a2 2 0 002 2zM4 3h16a2 2 0 012 2v3a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2z" />
                                 </svg>
@@ -166,29 +166,48 @@
                 </div>
             </header>
 
-            <!-- e-Services Section -->
+            <!-- Tanya FT Section -->
             <section class="mb-6">
-                <h2 class="text-2xl font-semibold mb-4">Layanan e-Command Center</h2>
-                <p>Inovasi Sistem informasi Capaian Kinerja FT ULM</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <!-- Card 1 -->
-                    <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="assets/images/orang.jpeg" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
-                        <div class="p-4">
-                            <h3 class="text-lg font-bold">aplikasi Si GESIT</h3>
-                            <p class="mt-2">Aplikasi berbasis mobile yang akan mempermudah kamu untuk mengakses layanan FT ULM</p>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
-                        <div class="p-4">
-                            <h3 class="text-lg font-bold">FT e-Command Center</h3>
-                            <p class="mt-2">(Coming soon)</p>
-                        </div>
-                    </div>
+                <a href="#" class="text-blue-500 mb-4 text-2x1 inline-block">Kembali</a> <br>
+                <div class="flex mb-4">
+                    <img src="assets/images/orang.jpeg" alt="Tanya FT" class="rounded-md w-1/4 h-auto mr-4">
+                    <div>
+                        <h2 class="text-2xl font-semibold mb-2">Tanya FT</h2>
+                        <p class="text-gray-600">
+                            Layanan ini disediakan untuk menyampaikan permohonan informasi publik terkait Fakultas Teknik ULM
+                        </p>
                     </div>
                 </div>
+                <p class="mb-4">
+                    TANYA FT merupakan Layanan Informasi Publik FT ULM. Layanan ini disediakan bagi para pihak untuk menyampaikan permohonan informasi publik terkait Fakultas Teknik Universitas Lambung Mangkurat. Setiap permohonan dikelola oleh Unit Layanan Administrasi Terpadu FT ULM sebagai pelaksana tugas Pejabat Pengelola Informasi dan Dokumentasi (PPID) FT ULM dan didistribusikan kepada Kelompok Kerja (POKJA) yang berkaitan atau langsung kepada Pimpinan FT ULM secara daring (online). Jawaban/Tanggapan dapat dipantau melalui fitur status pengajuan.
+                </p>
+                <h3 class="text-xl font-semibold mb-2">Alur Pengajuan</h3>
+                <ol class="list-decimal list-inside mb-4">
+                    <li>Mahasiswa mengisi data pertanyaan</li>
+                    <li>Admin Akademik akan menanggapi pertanyaan tersebut</li>
+                    <li>Tanggapan dapat dilihat melalui tabel pengajuan</li>
+                </ol>
+                <h3 class="text-xl font-semibold mb-2">Tabel Pengajuan</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white">
+                        <thead>
+                            <tr>
+                                <th class="py-2 px-4 border-b">No</th>
+                                <th class="py-2 px-4 border-b">ID Pengajuan</th>
+                                <th class="py-2 px-4 border-b">Jenis Pengajuan</th>
+                                <th class="py-2 px-4 border-b">Tanggal Pengajuan</th>
+                                <th class="py-2 px-4 border-b">Status</th>
+                                <th class="py-2 px-4 border-b">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="py-2 px-4 border-b text-center" colspan="6">Belum Ada Pengajuan</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <button class="mt-4 bg-blue-500 text-white py-2 align-items-sm-end px-4 rounded">Tambah Pengajuan</button>
             </section>
         </main>
     </div>

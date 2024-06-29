@@ -25,4 +25,11 @@ class Home extends BaseController
     {
         return view('e-command_center_view');
     }
+    public function eresponse(){
+        return view('e-response_view');
+    }
+
+    public function tanyaft1(){
+        return view('tanyaft1_view');
+    }
 }
