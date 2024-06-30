@@ -154,7 +154,7 @@
                     </button>
                     <div class="flex items-center">
                         <img src="/assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
-                        <span class="mr-4"><?= $fullname ?></span>
+                        <!-- <span class="mr-4"><= $fullname ?></span> -->
                     </div>
                 </div>
             </header>
@@ -167,18 +167,18 @@
                     <div class="mb-4">
                         <span class="block text-gray-700 font-semibold mb-2">Pertanyaan :</span>
                         <div class="">
-                            <p>Apa saja keuntungan layanan FT ULM yang baru dibuat ini?</p>
+                            <p><?= $forms['question'] ?></p>
                             <br>
                         </div>
                         <div class="gray-box">
                         
-                            <a href="#" class="text-blue-500">Cek File</a>
+                        <a href="<?= base_url('user/e-response/tanyaFT/'.$forms['id'].'/detail/download-file/'. $forms['id']) ?>" class="text-blue-500">Cek File</a>
                         </div>
                     </div>
                     <div>
                         <span class="block text-gray-700 font-semibold mb-2">Jawaban :</span>
                         <div class="">
-                            Website layanan baru FT ULM dirancang untuk memberikan akses yang mudah dan cepat bagi mahasiswa, dosen, dan staf untuk mengakses berbagai layanan akademik dan administratif. Dengan antarmuka yang responsif dan ramah pengguna, pengguna dapat dengan mudah mengajukan permohonan, mengakses informasi akademik, memantau status pengajuan, dan berinteraksi dengan berbagai fitur lainnya secara efisien.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida, ligula eu egestas luctus, ex metus ultrices arcu, vitae mattis lectus ante vitae nisl. Pellentesque lectus diam, commodo vitae leo ultricies, tincidunt imperdiet tellus. Morbi leo ex, ultrices sit amet feugiat dictum, tincidunt quis leo. Aliquam congue diam ante, ut egestas nulla imperdiet ac. Morbi tempor pellentesque ligula eu lacinia. Mauris scelerisque tincidunt erat. Aliquam accumsan mattis libero ut aliquet. Nullam ultrices posuere lobortis. Vestibulum vulputate sem velit, eget aliquet dolor euismod id.
                         </div>
                     </div>
                 </div>

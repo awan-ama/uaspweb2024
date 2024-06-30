@@ -106,10 +106,6 @@ class User extends BaseController
 			throw PageNotFoundException::forPageNotFound();
 		}
 		echo view('detail_pengajuan', $data);
-        // $data = [
-        //     'fullname' => $this->session->get('fullname')
-        // ];
-        // return view('detail_pengajuan', $data);
     }
 
     public function downloadFile($id)
@@ -131,11 +127,14 @@ class User extends BaseController
     exit;
 }
 
-    public function tanggapanTanyaFT()
+    public function tanggapanTanyaFT($id)
     {
-        $data = [
-            'fullname' => $this->session->get('fullname')
-        ];
-        return view('tanyaft_response', $data);
+        $form = new FormFTModel();
+        $data['forms'] = $form->where('id', $id)->first();
+		
+		if(!$data['forms']){
+			throw PageNotFoundException::forPageNotFound();
+		}
+		echo view('tanyaft_response', $data);
     }
 }

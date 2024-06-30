@@ -158,7 +158,7 @@
              <section class="mb-6">
                 <a href="../e-response" class="text-blue-500 mb-4 text-2x1 inline-block">Kembali</a> <br>
                 <div class="flex mb-4">
-                    <img src="/assets/images/orang.jpeg" alt="Tanya FT" class="rounded-md w-1/4 h-auto mr-4">
+                    <img src="/assets/images/campusphoto.png" alt="Tanya FT" class="rounded-md w-1/4 h-auto mr-4">
                     <div>
                         <h2 class="text-2xl font-semibold mb-2">Tanya FT</h2>
                         <p class="text-gray-600">
@@ -192,19 +192,25 @@
                             </tr>
                         </thead>
                         <tbody>
+                        <?php $counter = 1; ?>
                         <?php foreach ($forms as $form): ?>
                                 <tr>
-                                    <td class="py-2 px-4 border-b text-center">1</td>
+                                    <td class="py-2 px-4 border-b text-center"><?= $counter ?></td>
                                     <td class="py-2 px-4 border-b text-center"><?= $form['id'] ?></td>
                                     <td class="py-2 px-4 border-b text-center">Tanya FT</td>
-                                    <td class="py-2 px-4 border-b text-center"><?= $form['created_at'] ?></td>
+                                    <td class="py-2 px-4 border-b text-center">
+                                    <?php 
+                                    $date = new DateTime($form['created_at']);
+                                    echo $date->format('j F Y');
+                                    ?>
+                                    </td>
                                     <td class="py-2 px-4 border-b text-center"><?= $form['status'] ?></td>
-                                    <td class="py-2 px-4 border-b text-center"></td>
-                                    <td>
+                                    <td class="py-2 px-4 border-b text-center">
                                         <a href="<?= base_url('user/e_response/tanyaFT/'.$form['id'].'/detail') ?>" class="text-blue-500 hover:underline">Detail</a> |
-                                        <a href="tanggapan/'.$form['id'].'" class="text-red-500 hover:underline">Tanggapan</a>
+                                        <a href="<?= base_url('user/e_response/tanyaFT/'.$form['id'].'/tanggapan') ?>" class="text-red-500 hover:underline">Tanggapan</a>
                                     <td>
                                     </tr>
+                                    <?php $counter++; ?>
                                 <?php endforeach; ?>
                         </tbody>
                     </table>

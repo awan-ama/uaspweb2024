@@ -169,7 +169,7 @@
                     </button>
                     <div class="flex items-center">
                         <img src="/assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
-                        <span class="mr-4"><?= $fullname ?></span>
+                        <!-- <span class="mr-4">< $fullname ?></span> -->
                     </div>
                 </div>
             </header>

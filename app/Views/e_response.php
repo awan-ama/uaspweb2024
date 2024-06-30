@@ -152,7 +152,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- Card 1 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="//assets/images/campusphoto.png" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Lapor FT</h3>
                             <p class="mt-2">Layanan ini digunakan untuk menyampaikan keluhan atau saran di lingkungan Fakultas Teknik Universitas Lambung Mangkurat</p>
@@ -161,7 +161,7 @@
                     <!-- Card 2 -->
                     <a href="e_response/tanyaFT" class="block bg-white p-4 rounded-md shadow-md card hover:shadow-lg transition duration-300">
                         <div>
-                            <img src="//assets/images/campusphoto.png" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                            <img src="/assets/images/campusphoto.png" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
                             <div class="p-4">
                                 <h3 class="text-lg font-bold">Tanya FT</h3>
                                 <p class="mt-2">Layanan ini disediakan untuk menyampaikan permohonan informasi publik terkait Fakultas Teknik ULM</p>
