@@ -199,7 +199,7 @@
                     <div>
                         <span class="block text-gray-700 font-semibold mb-2">Jawaban :</span>
                         <div class="">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat ornare est. Morbi ultrices lorem ac feugiat aliquet. Aenean sem dui, fermentum ut interdum vel, sagittis eget nisi. Suspendisse velit lacus, volutpat sed dictum ullamcorper, ultrices tincidunt felis. Integer auctor sed sem eu congue. Aenean at condimentum ante, eu fringilla metus. Suspendisse condimentum sagittis tortor vel eleifend. Phasellus quis diam ut massa viverra faucibus. Vivamus mattis volutpat dolor, vitae suscipit dui. Phasellus volutpat elit eget est eleifend, at congue nibh scelerisque.
+                            Website layanan baru FT ULM dirancang untuk memberikan akses yang mudah dan cepat bagi mahasiswa, dosen, dan staf untuk mengakses berbagai layanan akademik dan administratif. Dengan antarmuka yang responsif dan ramah pengguna, pengguna dapat dengan mudah mengajukan permohonan, mengakses informasi akademik, memantau status pengajuan, dan berinteraksi dengan berbagai fitur lainnya secara efisien.
                         </div>
                     </div>
                 </div>

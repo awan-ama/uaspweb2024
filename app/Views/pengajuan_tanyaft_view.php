@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -172,52 +173,43 @@
                 </div>
             </header>
 
-    <!-- Form Section -->
-    <section class="mb-6">
-    <a href="../tanyaFT" class="text-blue-500 mb-4 inline-block">Kembali</a>
-    <h2 class="text-2xl font-semibold mb-4">Tambah Pengajuan Tanya FT</h2>
-    <form action="" method="post" class="bg-white p-6 rounded-lg shadow-md" method="post">
-        <input type="hidden" name="id" value="">
-        <!-- <input type="hidden" name="status" value="Pending">
-        <input type="hidden" name="submission_date"> -->
-
-        <div class="mb-4">
-            <label for="fullname" class="block text-gray-700 font-semibold mb-2">Nama Lengkap <span class="text-red-500">*</span></label>
-            <input type="text" id="fullname" name="fullname" class="input-gray w-full rounded-md shadow-sm" required>
-        </div>
-        <div class="mb-4">
-            <label for="nim" class="block text-gray-700 font-semibold mb-2">NIM <span class="text-red-500">*</span></label>
-            <input type="text" id="nim" name="nim" class="input-gray w-full rounded-md shadow-sm" required>
-        </div>
-        <div class="mb-4">
-            <label for="department" class="block text-gray-700 font-semibold mb-2">Program Studi <span class="text-red-500">*</span></label>
-            <select id="department" name="department" class="input-gray w-full rounded-md shadow-sm" required>
-                <option value="sipil">Teknik Sipil</option>
-                <option value="arsitektur">Arsitektur</option>
-                <option value="tambang">Teknik Pertambangan</option>
-                <option value="kimia">Teknik Kimia</option>
-                <option value="lingkungan">Teknik Lingkungan</option>
-                <option value="mesin">Teknik Mesin</option>
-                <option value="informasi">Teknologi Informasi</option>
-                <option value="geologi">Rekayasa Geologi</option>
-                <option value="elektro">Rekayasa Elektro</option>
-            </select>
-        </div>
-        <div class="mb-4">
-            <label for="question" class="block text-gray-700 font-semibold mb-2">Pertanyaan <span class="text-red-500">*</span></label>
-            <textarea id="question" name="question" rows="4" class="input-gray w-full rounded-md shadow-sm" placeholder="Masukkan Pertanyaan" required></textarea>
-        </div>
-        <!-- <div class="mb-4">
-            <label for="form_file" class="block text-gray-700 font-semibold mb-2">Berkas Pendukung</label>
-            <input type="file" id="form_file" name="form_file" class="w-full border-gray-300 rounded-md shadow-sm">
-            <p class="text-gray-500 text-sm mt-2">* Upload file dengan format jpg, png, jpeg maksimal 2 MB</p>
-        </div> -->
-        <div class="flex justify-end">
-            <button type="reset" class="bg-gray-200 text-gray-700 py-2 px-4 rounded mr-2">Batal</button>
-            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Kirim</button>
-        </div>
-    </form>
-</section>
+            <!-- Form Section -->
+            <section class="mb-6">
+                <a href="#" class="text-blue-500 mb-4 inline-block">Kembali</a>
+                <h2 class="text-2xl font-semibold mb-4">Tambah Pengajuan Tanya FT</h2>
+                <form action="#" class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="mb-4">
+                        <label for="nama" class="block text-gray-700 font-semibold mb-2">Nama Lengkap <span class="text-red-500">*</span></label>
+                        <input type="text" id="nama" name="nama" class="input-gray w-full rounded-md shadow-sm" value="Maulana">
+                    </div>
+                    <div class="mb-4">
+                        <label for="nim" class="block text-gray-700 font-semibold mb-2">NIM <span class="text-red-500">*</span></label>
+                        <input type="text" id="nim" name="nim" class="input-gray w-full rounded-md shadow-sm" value="2010917300008">
+                    </div>
+                    <div class="mb-4">
+                        <label for="program_studi" class="block text-gray-700 font-semibold mb-2">Program Studi <span class="text-red-500">*</span></label>
+                        <select id="program_studi" name="program_studi" class="input-gray w-full rounded-md shadow-sm">
+                            <option value="Teknologi Informasi">Teknologi Informasi</option>
+                            <option value="Teknik Sipil">Teknik Sipil</option>
+                            <option value="Teknik Mesin">Teknik Mesin</option>
+                            <option value="Teknik Elektro">Teknik Elektro</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label for="pertanyaan" class="block text-gray-700 font-semibold mb-2">Pertanyaan <span class="text-red-500">*</span></label>
+                        <textarea id="pertanyaan" name="pertanyaan" rows="4" class="input-gray w-full rounded-md shadow-sm" placeholder="Masukkan Pertanyaan"></textarea>
+                    </div>
+                    <div class="mb-4">
+                        <label for="berkas" class="block text-gray-700 font-semibold mb-2">Berkas Pendukung</label>
+                        <input type="file" id="berkas" name="berkas" class="w-full border-gray-300 rounded-md shadow-sm">
+                        <p class="text-gray-500 text-sm mt-2">* Upload file dengan format jpg, png, jpeg maksimal 2 MB</p>
+                    </div>
+                    <div class="flex justify-end">
+                        <button type="reset" class="bg-gray-200 text-gray-700 py-2 px-4 rounded mr-2">Batal</button>
+                        <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Kirim</button>
+                    </div>
+                </form>
+            </section>
         </main>
     </div>
 </body>
