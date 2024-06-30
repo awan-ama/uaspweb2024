@@ -38,7 +38,7 @@ $routes->group('user', ['filter' => 'authenticate'], function ($routes) {
 //  $routes->get('eresponse','Home::eresponse');
 //  $routes->get('tanyaft1','Home::tanyaft1');
 //  $routes->get('pengajuantanya','Home::pengajuantanya');
-//  $routes->get('dashboard','Home::dashboard');
+ // $routes->get('dashboard','Home::dashboard');
 // $routes->get('respontanya','Home::respontanya');
 
 $routes->group('logout', function ($routes) {
