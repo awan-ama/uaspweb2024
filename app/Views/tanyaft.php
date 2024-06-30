@@ -67,14 +67,13 @@
                         </li>
                         <li class="mb-4">
                             <a href="../e_command_center" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M280-400q17 0 28.5-11.5T320-440q0-17-11.5-28.5T280-480q-17 0-28.5 11.5T240-440q0 17 11.5 28.5T280-400Zm0-160q17 0 28.5-11.5T320-600q0-17-11.5-28.5T280-640q-17 0-28.5 11.5T240-600q0 17 11.5 28.5T280-560Zm80 160h360v-80H360v80Zm0-160h360v-80H360v80Zm-40 440v-80H160q-33 0-56.5-23.5T80-280v-480q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v480q0 33-23.5 56.5T800-200H640v80H320ZM160-280h640v-480H160v480Zm0 0v-480 480Z"/></svg>
                                 <span class="text-lg">e-Command Center</span>
                             </a>
                         </li>
                         <li class="mb-4">
                             <a href="../e_response" class="flex items-center text-blue-500 font-bold bg-blue-100 p-3 rounded">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
-                                <span class="text-lg">e-Response</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>                                <span class="text-lg">e-Response</span>
                             </a>
                         </li>
                         <li class="mb-4">
@@ -131,28 +130,6 @@
             </nav>
         </aside>
 
-        <!-- Main content -->
-        <main class="flex-1 p-6">
-            <!-- Header -->
-            <header class="bg-white shadow-md py-4 mb-6 flex items-center sticky top-0 justify-between">
-                <div class="flex items-center">
-                    <div>
-                    </div>
-                </div>
-                <div class="flex items-center">
-                    <input type="text" placeholder="Cari Layanan..." class="border border-gray-300 rounded-md py-2 px-4 mr-4 w-80">
-                    <button class="relative mr-4">
-                        <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A7.953 7.953 0 0018 10a7.953 7.953 0 00-1.595-5.595L15 4h5v5l-1.405-1.405A7.953 7.953 0 0018 10a7.953 7.953 0 001.595 5.595L20 17z"></path>
-                        </svg>
-                        <span class="absolute top-0 right-0 inline-flex items-center justify-center h-5 w-5 rounded-full bg-red-500 text-white text-xs">1</span>
-                    </button>
-                    <div class="flex items-center">
-                        <img src="/assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
-                        <!-- <span class="mr-4">< fullname ?></span> -->
-                    </div>
-                </div>
-            </header>
 
         <!-- Main content -->
         <main class="flex-1 p-6">
@@ -198,7 +175,10 @@
                     <li>Admin Akademik akan menanggapi pertanyaan tersebut</li>
                     <li>Tanggapan dapat dilihat melalui tabel pengajuan</li>
                 </ol>
-                <h3 class="text-xl font-semibold mb-2">Tabel Pengajuan</h3>
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Tabel Pengajuan</h3>
+                    <a href="tanyaFT/new" class="bg-blue-500 text-white py-2 px-4 rounded">Tambah Pengajuan</a>
+                </div>
                 <div class="overflow-x-auto">
                     <table class="min-w-full bg-white">
                         <thead>
@@ -214,12 +194,12 @@
                         <tbody>
                         <?php foreach ($forms as $form): ?>
                                 <tr>
-                                    <td class="py-2 px-4 border-b">1</td>
-                                    <td class="py-2 px-4 border-b"><?= $form['id'] ?></td>
-                                    <td class="py-2 px-4 border-b">Tanya FT</td>
-                                    <td class="py-2 px-4 border-b"><?= $form['created_at'] ?></td>
-                                    <td class="py-2 px-4 border-b"><?= $form['status'] ?></td>
-                                    <td class="py-2 px-4 border-b"></td>
+                                    <td class="py-2 px-4 border-b text-center">1</td>
+                                    <td class="py-2 px-4 border-b text-center"><?= $form['id'] ?></td>
+                                    <td class="py-2 px-4 border-b text-center">Tanya FT</td>
+                                    <td class="py-2 px-4 border-b text-center"><?= $form['created_at'] ?></td>
+                                    <td class="py-2 px-4 border-b text-center"><?= $form['status'] ?></td>
+                                    <td class="py-2 px-4 border-b text-center"></td>
                                     <td>
                                         <a href="<?= base_url('user/e_response/tanyaFT/'.$form['id'].'/detail') ?>" class="text-blue-500 hover:underline">Detail</a> |
                                         <a href="tanggapan/'.$form['id'].'" class="text-red-500 hover:underline">Tanggapan</a>
@@ -229,7 +209,6 @@
                         </tbody>
                     </table>
                 </div>
-                <a href = "tanyaFT/new" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded inline-block">Tambah Pengajuan</a>
             </section>
         </main>
     </div>
