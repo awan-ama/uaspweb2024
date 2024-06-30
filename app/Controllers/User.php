@@ -5,37 +5,37 @@ class User extends BaseController
 {
     public function dashboard()
     {
-        return view('dashboard_view');
+        return view('dashboard');
     }
     
     public function eServices()
     {
-        return view('e-services_view');
+        return view('e_services');
     }
     public function eCommandCenter()
     {
-        return view('e-command_center_view');
+        return view('e_command_center');
     }
     public function eResponse(){
-        return view('e-response_view');
+        return view('e_response');
     }
 
     public function eCommerce(){
-        return view('e-commerce_view');
+        return view('e_commerce');
     }
 
     public function tanyaFT(){
-        return view('tanyaft1_view');
+        return view('tanyaft');
     }
     public function pengajuanTanyaFT(){
-        return view('Pengajuan_tanyaft_view');
+        return view('tanyaft_pengajuan');
     }
 
     public function detailTanyaFT(){
-        return view('detail_tanyaft_view');
+        return view('tanyaft_detail');
     }
 
     public function tanggapanTanyaFT(){
-        return view('tanggapan_tanyaft_view');
+        return view('tanyaft_response');
     }
 }
