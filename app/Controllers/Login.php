@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Controllers;
-
 use App\Models\UserModel;
 
 class Login extends BaseController
@@ -11,7 +9,7 @@ class Login extends BaseController
     public function __construct()
     {
         $this->model = new UserModel();
-        helper(['form', 'url', 'session']); // Add 'session' helper here
+        $this->helpers = ['form', 'url'];
     }
 
     public function login()
@@ -19,46 +17,47 @@ class Login extends BaseController
         $data = [
             'title' => 'Login Page'
         ];
-        return view('login_view', $data);
+        return view('login', $data);
     }
 
     public function save()
     {
         $data = $this->request->getPost(['nim', 'password']);
 
-        if (! $this->validate([
+        if (! $this->validateData($data, [
             'nim' => 'required',
             'password' => 'required'
         ])) {
             return $this->login();
         }
 
-        $nim = $data['nim'];
-        $password = $data['password'];
+        $nim = $this->request->getPost('nim');
+        $password = $this->request->getPost('password');
 
-        $user = $this->model->where('nim', $nim)
+        $credentials = ['nim' => $nim];
+
+        $user = $this->model->where($credentials)
             ->first();
 
         if (! $user) {
             session()->setFlashdata('error', 'Username atau password anda salah.');
-            return redirect()->to('login'); 
+            return redirect()->back();
         }
 
         $passwordCheck = password_verify($password, $user['password']);
 
         if (! $passwordCheck) {
             session()->setFlashdata('error', 'Username atau password anda salah.');
-            return redirect()->to('login'); 
+            return redirect()->back();
         }
 
-        
         $userData = [
             'fullname' => $user['fullname'],
             'nim' => $user['nim'],
-            'logged_in' => true 
+            'logged_in' => TRUE
         ];
 
         session()->set($userData);
-        return redirect()->to('user/dashboard');
+        return redirect()->to(base_url('user/dashboard'));
     }
 }

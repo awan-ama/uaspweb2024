@@ -17,7 +17,7 @@ class Register extends BaseController
         $data = [
             'title' => 'Register Page'
         ];
-        return view('register_view', $data);
+        return view('register', $data);
     }
 
     public function save()

@@ -8,12 +8,12 @@
 </head>
 <body class="flex items-center justify-center h-screen bg-gray-100">
     <div class="flex w-full h-full bg-white shadow-lg rounded-lg overflow-hidden">
-        <div class="w-1/2 h-full bg-cover bg-center" style="background-image: url('<?= base_url('assets/images/yrllow hats.png') ?>')"></div>
+        <div class="w-1/2 h-full bg-cover bg-center" style="background-image: url('<?= base_url('/assets/images/yrllow hats.png') ?>')"></div>
         <div class="w-1/2 flex items-center justify-center p-8">
             <div class="w-full max-w-md">
                 <div class="text-center mb-8">
                     <div class="flex justify-center items-center mb-4">
-                        <img src="<?= base_url('assets/images/ulm.png') ?>" alt="Logo Universitas Lambung Mangkurat" class="w-1/5 mr-2">
+                        <img src="<?= base_url('/assets/images/ulm.png') ?>" alt="Logo Universitas Lambung Mangkurat" class="w-1/5 mr-2">
                         <div>
                             <h1 class="text-2xl font-bold">Fakultas Teknik</h1>
                             <h2 class="text-lg font-normal">Universitas Lambung Mangkurat</h2>
