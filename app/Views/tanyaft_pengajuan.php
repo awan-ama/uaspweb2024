@@ -38,6 +38,28 @@
             padding-bottom: 0.75rem;
         }
     </style>
+    <script>
+        function validateImage(input) {
+            const file = input.files[0];
+            if (file) {
+                const fileSize = file.size / 1024 / 1024; // in MB
+                const fileType = file.type;
+                const allowedTypes = ['image/jpeg', 'image/png', 'image/jpg'];
+                
+                if (fileSize > 2) {
+                    alert('File size exceeds 2 MB');
+                    input.value = ''; // Clear the input
+                    return false;
+                }
+
+                if (!allowedTypes.includes(fileType)) {
+                    alert('Only JPG, PNG, and JPEG files are allowed');
+                    input.value = ''; // Clear the input
+                    return false;
+                }
+            }
+        }
+    </script>
 </head>
 
 <body class="bg-gray-100">
@@ -177,7 +199,9 @@
             <section class="mb-6">
                 <a href="../tanyaFT" class="text-blue-500 mb-4 inline-block">Kembali</a>
                 <h2 class="text-2xl font-semibold mb-4">Tambah Pengajuan Tanya FT</h2>
-                <form action="#" class="bg-white p-6 rounded-lg shadow-md">
+
+                <?= form_open_multipart('user/e_response/tanyaFT/new/save', ['method' => 'post', 'id' => 'text-editor']); ?>
+                <!-- <form action="" class="bg-white p-6 rounded-lg shadow-md" method="post" id="text-editor"> -->
                     <div class="mb-4">
                         <label for="fullname" class="block text-gray-700 font-semibold mb-2">Nama Lengkap <span class="text-red-500">*</span></label>
                         <input type="text" id="fullname" name="fullname" class="input-gray w-full rounded-md shadow-sm" value="<?= $fullname ?>">
@@ -202,19 +226,20 @@
                         </select>
                     </div>
                     <div class="mb-4">
-                        <label for="pertanyaan" class="block text-gray-700 font-semibold mb-2">Pertanyaan <span class="text-red-500">*</span></label>
-                        <textarea id="pertanyaan" name="pertanyaan" rows="4" class="input-gray w-full rounded-md shadow-sm" placeholder="Masukkan Pertanyaan"></textarea>
+                        <label for="question" class="block text-gray-700 font-semibold mb-2">Pertanyaan <span class="text-red-500">*</span></label>
+                        <textarea id="question" name="question" rows="4" class="input-gray w-full rounded-md shadow-sm" placeholder="Masukkan Pertanyaan"></textarea>
                     </div>
                     <div class="mb-4">
-                        <label for="berkas" class="block text-gray-700 font-semibold mb-2">Berkas Pendukung</label>
-                        <input type="file" id="berkas" name="berkas" class="w-full border-gray-300 rounded-md shadow-sm">
+                        <label for="file" class="block text-gray-700 font-semibold mb-2">Berkas Pendukung</label>
+                        <input type="file" id="file" name="file" class="w-full border-gray-300 rounded-md shadow-sm">
                         <p class="text-gray-500 text-sm mt-2">* Upload file dengan format jpg, png, jpeg maksimal 2 MB</p>
                     </div>
                     <div class="flex justify-end">
                         <button type="reset" class="bg-gray-200 text-gray-700 py-2 px-4 rounded mr-2">Batal</button>
                         <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Kirim</button>
                     </div>
-                </form>
+                    <!-- </form> -->
+                    <?= form_close(); ?>
             </section>
         </main>
     </div>
