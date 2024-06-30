@@ -144,7 +144,7 @@
                     </button>
                     <div class="flex items-center">
                         <img src="/assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
-                        <span class="mr-4"><?= $fullname ?></span>
+                        <!-- <span class="mr-4"><= $fullname ?></span> -->
                     </div>
                 </div>
             </header>
@@ -155,35 +155,42 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <label class="block text-gray-700">ID Pengajuan</label>
-                            <div class="bg-gray-custom p-3 rounded-md">SKM-231</div>
+                            <div class="bg-gray-custom p-3 rounded-md"><?= $forms['id'] ?></div>
                         </div>
                         <div>
                             <label class="block text-gray-700">Status Pengajuan</label>
-                            <div class="bg-green-100 text-green-700 p-3 rounded-md">Disetujui</div>
+                            <div class="bg-green-100 text-green-700 p-3 rounded-md"><?= $forms['status'] ?></div>
                         </div>
                         <div>
                             <label class="block text-gray-700">Tanggal Pengajuan</label>
-                            <div class="bg-gray-custom p-3 rounded-md">4 Februari 2024</div>
+                            <div class="bg-gray-custom p-3 rounded-md">
+                            <?php 
+                            $date = new DateTime($forms['created_at']);
+                            echo $date->format('j F Y');
+                            ?>
+                        </div>
                         </div>
                         <div>
                             <label class="block text-gray-700">Nama Lengkap</label>
-                            <div class="bg-gray-custom p-3 rounded-md">Maulana</div>
+                            <div class="bg-gray-custom p-3 rounded-md"><?= $forms['fullname'] ?></div>
                         </div>
                         <div>
                             <label class="block text-gray-700">NIM</label>
-                            <div class="bg-gray-custom p-3 rounded-md">2010817310008</div>
+                            <div class="bg-gray-custom p-3 rounded-md"><?= $forms['nim'] ?></div>
                         </div>
                         <div>
                             <label class="block text-gray-700">Program Studi</label>
-                            <div class="bg-gray-custom p-3 rounded-md">Teknologi Informasi</div>
+                            <div class="bg-gray-custom p-3 rounded-md"><?= $forms['department'] ?></div>
                         </div>
                         <div class="">
                             <label class="block text-gray-700">Pertanyaan</label>
-                            <div class="bg-gray-custom p-3 rounded-md">Apa saja keuntungan layanan FT ULM yang baru dibuat ini?</div>
+                            <div class="bg-gray-custom p-3 rounded-md"><?= $forms['question'] ?></div>
                         </div>
                         <div class="">
                             <label class="block text-gray-700">Berkas Pendukung</label>
-                            <div class="bg-gray-custom p-3 rounded-md"><a href="#" class="text-blue-500">Cek File</a></div>
+                            <div class="bg-gray-custom p-3 rounded-md">
+                                <a href="<?= base_url('user/e-response/tanyaFT/'.$forms['id'].'/detail/download-file/'. $forms['id']) ?>" class="text-blue-500">Cek File</a>
+                            </div>
                         </div>
                     </div>
                 </div>

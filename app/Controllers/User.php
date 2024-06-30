@@ -97,13 +97,39 @@ class User extends BaseController
         }
     }
 
-    public function detailTanyaFT()
+    public function detailTanyaFT($id)
     {
-        $data = [
-            'fullname' => $this->session->get('fullname')
-        ];
-        return view('tanyaft_detail', $data);
+        $form = new FormFTModel();
+        $data['forms'] = $form->where('id', $id)->first();
+		
+		if(!$data['forms']){
+			throw PageNotFoundException::forPageNotFound();
+		}
+		echo view('detail_pengajuan', $data);
+        // $data = [
+        //     'fullname' => $this->session->get('fullname')
+        // ];
+        // return view('detail_pengajuan', $data);
     }
+
+    public function downloadFile($id)
+{
+    $form = new FormFTModel();
+    $data = $form->select('file, file_name, file_type')->where('id', $id)->first();
+
+    if (!$data) {
+        throw PageNotFoundException::forPageNotFound();
+    }
+    header('Content-Description: File Transfer');
+    header('Content-Type: ' . $data['file_type']);
+    header('Content-Disposition: attachment; filename="' . $data['file_name'] . '"');
+    header('Expires: 0');
+    header('Cache-Control: must-revalidate');
+    header('Pragma: public');
+    header('Content-Length: ' . strlen($data['file']));
+    echo $data['file'];
+    exit;
+}
 
     public function tanggapanTanyaFT()
     {

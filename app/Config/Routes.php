@@ -32,9 +32,10 @@ $routes->group('user', ['filter' => 'authenticate'], function ($routes) {
      $routes->get('e_response/tanyaFT', 'User::tanyaFT');
      $routes->get('e_response/tanyaFT/new', 'User::pengajuanTanyaFT');
      $routes->post('e_response/tanyaFT/new/save', 'User::save');
-     $routes->get('e_response/tanyaFT/detail', 'User::detailTanyaFT');
-     $routes->get('e_response/tanyaFT/tanggapan', 'User::tanggapanTanyaFT');
+     $routes->get('e_response/tanyaFT/(:segment)/detail', 'User::detailTanyaFT/$1');
+     $routes->get('e_response/tanyaFT/(:segment)/tanggapan', 'User::tanggapanTanyaFT/$1');
      $routes->get('e_commerce','User::eCommerce');
+     $routes->get('download-file/(:segment)', 'User::downloadFile/$1');
 });
 
 $routes->group('logout', function ($routes) {
