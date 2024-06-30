@@ -7,6 +7,10 @@ use PHPUnit\Util\Filter;
  * @var RouteCollection $routes
  */
 
+ $routes->get('/', function() {
+    return redirect()->to('/login');
+});
+
 $routes->group('login', ['filter' => 'redirectIfAuthenticated'], function ($routes) {
    $routes->get('/', 'Login::login');
    $routes->post('/', 'Login::save');
