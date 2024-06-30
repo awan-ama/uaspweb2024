@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanggapan Tanya FT</title>
+    <title>e-Services</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .card {
@@ -30,20 +30,6 @@
             height: 100%;
             overflow-y: auto;
         }
-
-        .input-gray {
-            background-color: #f7fafc;
-            border: 1px solid #cbd5e0;
-            padding-top: 0.75rem;
-            padding-bottom: 0.75rem;
-        }
-
-        .gray-box {
-            background-color: #f7fafc;
-            border: 1px solid #cbd5e0;
-            padding: 0.75rem;
-            border-radius: 0.375rem;
-        }
     </style>
 </head>
 
@@ -52,7 +38,7 @@
         <!-- Sidebar -->
         <aside class="bg-white w-64 shadow-md sidebar-sticky">
             <div class="p-6 flex items-center">
-                <img src="assets/images/ulm.png" alt="Logo" class="h-12 w-12 mr-3">
+                <img src="/assets/images/ulm.png" alt="Logo" class="h-12 w-12 mr-3">
                 <div>
                     <h1 class="text-xl font-bold">Fakultas Teknik</h1>
                     <p class="text-gray-600 text-sm">Universitas Lambung Mangkurat</p>
@@ -63,7 +49,7 @@
                     <span class="text-gray-500 uppercase text-xs">Menu</span>
                     <ul>
                         <li class="mb-4">
-                            <a href="dashboard.html" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="dashboard" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                                 </svg>
@@ -76,7 +62,7 @@
                     <span class="text-gray-500 uppercase text-xs">Layanan</span>
                     <ul>
                         <li class="mb-4">
-                            <a href="eServices" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="e_services" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 11h18M3 15h18M3 19h18" />
                                 </svg>
@@ -84,7 +70,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="eCommandCenter" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="e_command_center" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
                                 </svg>
@@ -92,7 +78,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="eResponse" class="flex items-center text-blue-500 font-bold bg-blue-100 p-2 rounded">
+                            <a href="e_response" class="flex items-center text-blue-500 font-bold bg-blue-100 p-2 rounded">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m-7 5h10a2 2 0 002-2v-3a2 2 0 00-2-2H5a2 2 0 00-2 2v3a2 2 0 002 2zM4 3h16a2 2 0 012 2v3a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2z" />
                                 </svg>
@@ -100,7 +86,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="eCommerce" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="e_commerce" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h16v16H4z" />
                                 </svg>
@@ -108,7 +94,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="e-office.html" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="#" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v10l4-3 4 3V7H8z" />
                                 </svg>
@@ -118,10 +104,10 @@
                     </ul>
                 </div>
                 <div>
-                    <span class="text-gray-500 uppercase text-xs">Other</span>
+                <span class="text-gray-500 uppercase text-xs">Other</span>
                     <ul>
                         <li class="mb-4">
-                            <a href="kuisioner.html" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="#" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h4m0 0H8m4 0l2 2m-2-2l2-2M8 12h4" />
                                 </svg>
@@ -129,7 +115,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="faq.html" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="#" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M8 14h8m-8 4h8" />
                                 </svg>
@@ -137,7 +123,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="profile.html" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="#" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-3.086 1.419-4.913 3-5.837C15.637 5.077 16 4.693 16 4a4 4 0 00-8 0c0 .693.363 1.077 1 1.163C10.581 6.087 12 7.914 12 11zm0 0c-1.084 0-1.92.364-2.403 1.02A4.385 4.385 0 009 14.31c0 1.27.51 2.586 1.597 3.41.646.488 1.432.78 2.403.78s1.757-.292 2.403-.78C15.49 16.897 16 15.58 16 14.31c0-1.27-.51-2.586-1.597-3.29-.483-.656-1.319-1.02-2.403-1.02zm0 0v.02V11z" />
                                 </svg>
@@ -145,7 +131,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="logout.html" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="#" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12h5.5M15 12H9m6 0a4.5 4.5 0 00-9 0h9zm-6-3h5M9 12h6m-6 9V3h6v18H9z" />
                                 </svg>
@@ -174,34 +160,35 @@
                         <span class="absolute top-0 right-0 inline-flex items-center justify-center h-5 w-5 rounded-full bg-red-500 text-white text-xs">1</span>
                     </button>
                     <div class="flex items-center">
-                        <span class="mr-4">Maulana</span>
-                        <img src="assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
+                        <img src="/assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
+                        <span class="mr-4"><?= $fullname ?></span>
                     </div>
                 </div>
             </header>
 
-            <!-- Response Section -->
+            <!-- e-Services Section -->
             <section class="mb-6">
-                <a href="#" class="text-blue-500 mb-4 inline-block">Kembali</a>
-                <h2 class="text-2xl font-semibold mb-4">Tanggapan Tanya FT</h2>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <div class="mb-4">
-                        <span class="block text-gray-700 font-semibold mb-2">Pertanyaan :</span>
-                        <div class="">
-                            <p>Apa saja keuntungan layanan FT ULM yang baru dibuat ini?</p>
-                            <br>
-                        </div>
-                        <div class="gray-box">
-                        
-                            <a href="#" class="text-blue-500">Cek File</a>
+                <h2 class="text-2xl font-semibold mb-4">Layanan e-Respons</h2>
+                <p>Inovasi Sistem informasi dan Pengaduan FT ULM</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- Card 1 -->
+                    <div class="bg-white p-4 rounded-md shadow-md card">
+                        <img src="//assets/images/orang.jpeg" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold">Lapor FT</h3>
+                            <p class="mt-2">Layanan ini digunakan untuk menyampaikan keluhan atau saran di lingkungan Fakultas Teknik Universitas Lambung Mangkurat</p>
                         </div>
                     </div>
-                    <div>
-                        <span class="block text-gray-700 font-semibold mb-2">Jawaban :</span>
-                        <div class="">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat ornare est. Morbi ultrices lorem ac feugiat aliquet. Aenean sem dui, fermentum ut interdum vel, sagittis eget nisi. Suspendisse velit lacus, volutpat sed dictum ullamcorper, ultrices tincidunt felis. Integer auctor sed sem eu congue. Aenean at condimentum ante, eu fringilla metus. Suspendisse condimentum sagittis tortor vel eleifend. Phasellus quis diam ut massa viverra faucibus. Vivamus mattis volutpat dolor, vitae suscipit dui. Phasellus volutpat elit eget est eleifend, at congue nibh scelerisque.
+                    <!-- Card 2 -->
+                    <a href="e_response/tanyaFT" class="block bg-white p-4 rounded-md shadow-md card hover:shadow-lg transition duration-300">
+                        <div>
+                            <img src="//assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                            <div class="p-4">
+                                <h3 class="text-lg font-bold">Tanya FT</h3>
+                                <p class="mt-2">Layanan ini disediakan untuk menyampaikan permohonan informasi publik terkait Fakultas Teknik ULM</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </section>
         </main>

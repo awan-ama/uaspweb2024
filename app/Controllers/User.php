@@ -1,85 +1,76 @@
 <?php
-
 namespace App\Controllers;
-
-use App\Models\SubmissionModel;
+use App\Models\UserModel;
 
 class User extends BaseController
 {
-    protected $model;
 
     public function __construct()
     {
-        $this->model = new SubmissionModel();
-        $this->helpers = ['form', 'url'];
+        $this->model = new UserModel();
+        $this->session = session();
     }
 
     public function dashboard()
     {
-        return view('dashboard_view');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('dashboard', $data);
     }
-
+    
     public function eServices()
     {
-        return view('e-services_view');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('e_services', $data);
     }
-
     public function eCommandCenter()
     {
-        return view('e-command_center_view');
-    }
-
-    public function eResponse()
-    {
-        return view('e-response_view');
-    }
-
-    public function eCommerce()
-    {
-        return view('e-commerce_view');
-    }
-
-    public function tanyaFT()
-    {
-        return view('tanyaft1_view');
-    }
-
-    public function pengajuanTanyaFT()
-    {
         $data = [
-            'title' => 'Pengajuan Tanya FT'
+            'fullname' => $this->session->get('fullname')
         ];
-        return view('pengajuan_tanyaft_view', $data);
+        return view('e_command_center', $data);
+    }
+    public function eResponse(){
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('e_response', $data);
     }
 
-    public function addPengajuanTanyaFT()
-    {
-        $data = $this->request->getPost(['nim', 'fullname', 'department', 'question']);
-
-        if (! $this->validateData($data, $this->model->validationRules)) {
-            return $this->tanyaFT();
-        }
-
-        $user = $this->validator->getValidated();
-
-        $addPengajuanTanyaFT = $this->model->addPengajuanTanyaFT($user);
-
-        if ($addPengajuanTanyaFT) {
-            session()->setFlashdata('success', 'Register akun berhasil');
-            return redirect()->to(base_url('user/dashboard'));
-        } else {
-            session()->setFlashdata('error', $this->model->errors());
-            return redirect()->back();
-        }
+    public function eCommerce(){
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('e_commerce', $data);
     }
 
-    public function detailTanyaFT()
-    {
-        return view('detail_tanyaft_view');
+    public function tanyaFT(){
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('tanyaft', $data);
+    }
+    public function pengajuanTanyaFT(){
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('tanyaft_pengajuan', $data);
     }
 
-    public function tanggapanTanyaFT()
-    {
-        return view('response-tanyaft_view');
+    public function detailTanyaFT(){
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('tanyaft_detail', $data);
+    }
+
+    public function tanggapanTanyaFT(){
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('tanyaft_response', $data);
     }
 }
