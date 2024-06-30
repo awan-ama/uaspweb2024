@@ -145,7 +145,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="#" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
+                            <a href="../logout" class="flex items-center text-gray-700 p-2 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12h5.5M15 12H9m6 0a4.5 4.5 0 00-9 0h9zm-6-3h5M9 12h6m-6 9V3h6v18H9z" />
                                 </svg>
