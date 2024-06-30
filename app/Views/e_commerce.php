@@ -151,7 +151,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- Card 1 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Aplikasi Serasah</h3>
                             <p class="mt-2">Aplikasi Mobile untuk masyarakat agar dapat menjual sampah rumah tangga baik organik atau inorganik</p>
@@ -159,7 +159,7 @@
                     </div>
                     <!-- Card 2 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Bank Sampah FT</h3>
                             <p class="mt-2">Aplikasi pengelolaan sampah mandiri FT ULM sebagau bentuk kepedulian dan inovasi dalam mengelola sampah</p>
@@ -167,7 +167,7 @@
                     </div>
                      <!-- Card 3 -->
                      <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Engineering Techno Park</h3>
                             <p class="mt-2">taman Fakultas teknik ULM dengan berbagai penerapan teknologi yang inovatif dan bermanfaat</p>
@@ -175,7 +175,7 @@
                     </div>
                      <!-- Card 4 -->
                      <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">FT Book Store</h3>
                             <p class="mt-2">(Coming Soon)</p>
@@ -183,7 +183,7 @@
                     </div>
                      <!-- Card 5 -->
                      <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">FT Job Market</h3>
                             <p class="mt-2">(Coming Soon)</p>
@@ -191,7 +191,7 @@
                     </div>
                      <!-- Card 6 -->
                      <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">FT Lab Services</h3>
                             <p class="mt-2">Layanan ini disediakan untuk memudahkan proses Administrasi dan pencatatan kegiatan layanan Laboratorium di lingkungan FT ULM</p>

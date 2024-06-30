@@ -150,7 +150,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- Card 1 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Izin Penelitian TA Lulus FT</h3>
                             <p class="mt-2">Layanan ini digunakan untuk pengajuan Surat Izin Penelitian Tugas Akhir di laboratorium Fakultas Teknik ULM</p>
@@ -158,7 +158,7 @@
                     </div>
                     <!-- Card 2 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Kendali Kegiatan Ormawa</h3>
                             <p class="mt-2">layanan ini digunakn untuk pengajuan proposal atau laporan kegiatan organisasi mahasiswa FT ULM</p>
@@ -166,7 +166,7 @@
                     </div>
                     <!-- Card 3 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 3" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 3" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Keterangan Bebas Lab & Perpus</h3>
                             <p class="mt-2">Digunakan ntuk pengajuan Surat Keterangan Bebas Lab dan Perpus di lingkunan FT sebagai persyaratan Wisuda Mahasiswa FT ULM</p>
@@ -174,7 +174,7 @@
                     </div>
                     <!-- Card 4 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 4" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 4" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Kotak Pos FT</h3>
                             <p class="mt-2">Layanan ini disediakan untuk memberikan kemudahan bagi para pihak dalam menjalin komunikasi dengan pihak FT ULM</p>
@@ -182,7 +182,7 @@
                     </div>
                     <!-- Card 5 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 5" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 5" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Legalisir Akreditasi Program Studi</h3>
                             <p class="mt-2">Layanan ini digunakan untuk pengajuan legalisir Akreditasi Program Studi untuk kebutuhan Dokumen Legal Bertanda Tangan</p>
@@ -190,7 +190,7 @@
                     </div>
                     <!-- Card 6 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 6" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 6" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Legalisir Ijazah</h3>
                             <p class="mt-2">Layanan ini digunakan untuk pengajuan legalisir ijaszah secara online dan dapat diambil secara offline atau dikirim melalui COD</p>
@@ -198,7 +198,7 @@
                     </div>
                     <!-- Card 7 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 7" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 7" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Legalitas Transkrip Akademik</h3>
                             <p class="mt-2">Layanan ini digunakan untuk penggajuan</p>
@@ -206,7 +206,7 @@
                     </div>
                     <!-- Card 8 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 8" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 8" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">MBKM FT ULM</h3>
                             <p class="mt-2">Deskripsi layanan 8</p>
@@ -214,7 +214,7 @@
                     </div>
                     <!-- Card 9 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 9" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 9" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Permintaan Data MK/PKL/TA</h3>
                             <p class="mt-2">Deskripsi layanan 9</p>
@@ -222,7 +222,7 @@
                     </div>
                     <!-- Card 10 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 10" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 10" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Permintaan Tenaga Ahli</h3>
                             <p class="mt-2">Deskripsi layanan 10</p>
@@ -230,7 +230,7 @@
                     </div>
                     <!-- Card 11 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 11" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 11" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Pengurangan Kategori UKT</h3>
                             <p class="mt-2">Deskripsi layanan 11</p>
@@ -238,7 +238,7 @@
                     </div>
                     <!-- Card 12 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 12" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 12" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Aktif Kuliah</h3>
                             <p class="mt-2">Deskripsi layanan 12</p>
@@ -246,7 +246,7 @@
                     </div>
                     <!-- Card 13 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 13" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 13" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Keterangan Jomblo/Tunawisma</h3>
                             <p class="mt-2">Deskripsi layanan 13</p>
@@ -254,7 +254,7 @@
                     </div>
                     <!-- Card 14 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 14" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 14" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Keterangan Lulus</h3>
                             <p class="mt-2">Deskripsi layanan 14</p>
@@ -262,7 +262,7 @@
                     </div>
                     <!-- Card 15 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 15" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 15" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Pengantar Izin Penelitian</h3>
                             <p class="mt-2">Deskripsi layanan 15</p>
@@ -270,7 +270,7 @@
                     </div>
                     <!-- Card 16 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 16" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 16" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Pengantar Izin PKL</h3>
                             <p class="mt-2">Deskripsi layanan 16</p>
@@ -278,7 +278,7 @@
                     </div>
                     <!-- Card 17 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 17" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 17" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Rekomendasi Mahasiswa</h3>
                             <p class="mt-2">Deskripsi layanan 17</p>
@@ -286,7 +286,7 @@
                     </div>
                     <!-- Card 18 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 18" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 18" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Tugas</h3>
                             <p class="mt-2">Deskripsi layanan 18</p>
@@ -294,7 +294,7 @@
                     </div>
                     <!-- Card 19 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 19" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 19" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Surat Tugas PKL/TA</h3>
                             <p class="mt-2">Deskripsi layanan 19</p>
@@ -302,7 +302,7 @@
                     </div>
                     <!-- Card 20 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 20" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 20" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Sertifikat Uji Plagiat Artikel Jurnal TA</h3>
                             <p class="mt-2">Deskripsi layanan 20</p>
@@ -310,7 +310,7 @@
                     </div>
                     <!-- Card 21 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 21" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 21" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">Ujian Tugas Akhir</h3>
                             <p class="mt-2">Deskripsi layanan 21</p>

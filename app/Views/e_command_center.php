@@ -151,7 +151,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- Card 1 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">aplikasi Si GESIT</h3>
                             <p class="mt-2">Aplikasi berbasis mobile yang akan mempermudah kamu untuk mengakses layanan FT ULM</p>
@@ -159,7 +159,7 @@
                     </div>
                     <!-- Card 2 -->
                     <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
+                        <img src="/assets/images/campusphoto.png" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
                         <div class="p-4">
                             <h3 class="text-lg font-bold">FT e-Command Center</h3>
                             <p class="mt-2">(Coming soon)</p>
