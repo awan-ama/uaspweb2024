@@ -193,15 +193,15 @@
                         <label for="department" class="block text-gray-700 font-semibold mb-2">Program Studi <span class="text-red-500">*</span></label>
                         <select id="department" name="department" class="input-gray w-full rounded-md shadow-sm">
                            <option value="">Pilih Program Studi</option>
-                           <option value="sipil">Teknik Sipil</option>
-                           <option value="arsitektur">Arsitektur</option>
-                           <option value="tambang">Teknik Pertambangan</option>
-                           <option value="kimia">Teknik Kimia</option>
-                           <option value="lingkungan">Teknik Lingkungan</option>
-                           <option value="mesin">Teknik Mesin</option>
-                           <option value="informasi">Teknologi Informasi</option>
-                           <option value="geologi">Rekayasa Geologi</option>
-                           <option value="elektro">Rekayasa Elektro</option>
+                           <option value="Teknik Sipil">Teknik Sipil</option>
+                           <option value="Arsitektur">Arsitektur</option>
+                           <option value="Teknik Pertambangan">Teknik Pertambangan</option>
+                           <option value="Teknik Kimia">Teknik Kimia</option>
+                           <option value="Teknik Lingkungan">Teknik Lingkungan</option>
+                           <option value="Teknik Mesin">Teknik Mesin</option>
+                           <option value="Teknologi Informasi">Teknologi Informasi</option>
+                           <option value="Rekayasa Geologi">Rekayasa Geologi</option>
+                           <option value="Rekayasa Elektro">Rekayasa Elektro</option>
                         </select>
                     </div>
                     <div class="mb-4">

@@ -21,7 +21,8 @@ class Users extends Migration
             ],
             'department' => [
                 'type' => 'ENUM',
-                'constraint' => ['sipil', 'arsitektur', 'tambang', 'kimia', 'lingkungan', 'mesin', 'informasi', 'geologi', 'elektro'],
+                'constraint' => ['sipil', 'arsitektur', 'tambang', 
+                'Teknik Kimia', 'lingkungan', 'mesin', 'informasi', 'geologi', 'elektro'],
                 'null' => false,
             ],
             'phone' => [
