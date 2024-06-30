@@ -59,9 +59,11 @@ class User extends BaseController
 
     public function tanyaFT()
     {
-        $data = [
-            'fullname' => $this->session->get('fullname')
-        ];
+        $form = new FormFTModel();
+        $data['forms'] = $form->findAll();
+        // $data = [
+        //     'fullname' => $this->session->get('fullname')
+        // ];
         return view('tanyaft', $data);
     }
 
@@ -74,28 +76,6 @@ class User extends BaseController
         ];
         return view('tanyaft_pengajuan', $data);
     }
-
-    // public function save()
-    // {
-    //     $data = $this->request->getPost(['fullname', 'nim', 'department', 'question']);
-        
-    //     $file = $this->request->getFile('file');
-    //     if ($file->isValid() && !$file->hasMoved()) {
-    //         $data['file'] = file_get_contents($file->getTempName());
-    //     } else {
-    //         return redirect()->back()->with('error', 'File upload failed.');
-    //     }
-
-    //     if (! $this->validate($this->modelForm->validationRules)) {
-    //         return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
-    //     }
-
-    //     if ($this->modelForm->save($data)) {
-    //         return redirect()->to(base_url('user/e_response'))->with('success', 'Data has been saved successfully.');
-    //     } else {
-    //         return redirect()->back()->with('error', 'Data save failed.');
-    //     }
-    // }
 
     public function save()
     {

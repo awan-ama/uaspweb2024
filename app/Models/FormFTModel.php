@@ -6,9 +6,9 @@ class FormFTModel extends Model
 {
     protected $table = 'formft';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['fullname', 'nim', 'department', 'question', 'file'];
+    protected $allowedFields = ['fullname', 'nim', 'department', 'question', 'file', 'status', 'created_at'];
     protected $validationRules = [
-        'nim' => 'required|',
+        'nim' => 'required',
         'fullname' => 'required',
         'department' => 'required',
         'question' => 'required',

@@ -49,5 +49,5 @@ class Home extends BaseController
     public function detail(){
         return view('detail_pengajuan');
     }
-    
+
 }

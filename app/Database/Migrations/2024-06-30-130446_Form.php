@@ -37,6 +37,13 @@ class Form extends Migration
             'file' => [
                 'type' => 'MEDIUMBLOB',
             ],
+            'status' => [
+                'type' => 'ENUM',
+                'constraint' => ['Diproses', 'Disetujui', 'Ditolak'],
+                'default' => 'Diproses',
+                'null' => false,
+            ],
+            'created_at DATETIME DEFAULT CURRENT_TIMESTAMP'
             ]);
         
             $this->forge->addKey('id', true);

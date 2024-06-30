@@ -159,7 +159,7 @@
                     </button>
                     <div class="flex items-center">
                         <img src="/assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
-                        <span class="mr-4"><?= $fullname ?></span>
+                        <!-- <span class="mr-4">< $fullname ?></span> -->
                     </div>
                 </div>
             </header>
@@ -199,9 +199,22 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td class="py-2 px-4 border-b text-center" colspan="6">Belum Ada Pengajuan</td>
-                            </tr>
+                                <?php foreach ($forms as $form): ?>
+                                    <tr>
+                                        <td class="py-2 px-4 border-b"></td>
+                                        <td class="py-2 px-4 border-b"><?= $form['id'] ?></td>
+                                        <td class="py-2 px-4 border-b">Tanya FT</td>
+                                        <td class="py-2 px-4 border-b"><?= $form['created_at'] ?></td>
+                                        <td class="py-2 px-4 border-b"><?= $form['status'] ?></td>
+                                        <td class="py-2 px-4 border-b">
+                                            <!-- <a href="your_edit_url/" class="text-blue-500 hover:underline">Edit</a> |
+                                            <a href="your_delete_url/" class="text-red-500 hover:underline">Delete</a> -->
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr>
+                                    <td class="py-2 px-4 border-b text-center" colspan="5">Belum Ada Pengajuan</td>
+                                </tr>
                         </tbody>
                     </table>
                 </div>
