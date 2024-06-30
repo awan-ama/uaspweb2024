@@ -149,6 +149,7 @@
             <!-- Detail Pengajuan Section -->
             <section class="mb-6">
                 <div class="bg-white p-6 rounded-md shadow-md">
+                <a href="<?= base_url('user/e_response/tanyaFT') ?>" class="text-blue-500 mb-4 inline-block">Kembali</a>
                     <h2 class="text-2xl font-semibold mb-4">Detail Pengajuan Surat Rekomendasi Mahasiswa</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>

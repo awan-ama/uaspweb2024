@@ -49,7 +49,7 @@
                     <span class="text-gray-500 uppercase text-xs">Menu</span>
                     <ul>
                         <li class="mb-4">
-                            <a href="../dashboard" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
+                        <a href="<?= base_url('user/dashboard') ?>" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M520-600v-240h320v240H520ZM120-440v-400h320v400H120Zm400 320v-400h320v400H520Zm-400 0v-240h320v240H120Zm80-400h160v-240H200v240Zm400 320h160v-240H600v240Zm0-480h160v-80H600v80ZM200-200h160v-80H200v80Zm160-320Zm240-160Zm0 240ZM360-280Z"/></svg>
                                 <span class="text-lg">Dashboard</span>
                             </a>
@@ -60,24 +60,24 @@
                     <span class="text-gray-500 uppercase text-xs">Layanan</span>
                     <ul>
                         <li class="mb-4">
-                            <a href="../e_services" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
+                        <a href="<?= base_url('user/e_services') ?>" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
                                 <span class="text-lg">e-Services</span>
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="../e_command_center" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
+                        <a href="<?= base_url('user/e_command_center') ?>" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M280-400q17 0 28.5-11.5T320-440q0-17-11.5-28.5T280-480q-17 0-28.5 11.5T240-440q0 17 11.5 28.5T280-400Zm0-160q17 0 28.5-11.5T320-600q0-17-11.5-28.5T280-640q-17 0-28.5 11.5T240-600q0 17 11.5 28.5T280-560Zm80 160h360v-80H360v80Zm0-160h360v-80H360v80Zm-40 440v-80H160q-33 0-56.5-23.5T80-280v-480q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v480q0 33-23.5 56.5T800-200H640v80H320ZM160-280h640v-480H160v480Zm0 0v-480 480Z"/></svg>
                                 <span class="text-lg">e-Command Center</span>
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="../e_response" class="flex items-center text-blue-500 font-bold bg-blue-100 p-3 rounded">
+                        <a href="<?= base_url('user/e_response') ?>" class="flex items-center text-blue-500 font-bold bg-blue-100 p-3 rounded">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>                                <span class="text-lg">e-Response</span>
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="../e_commerce" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
+                        <a href="<?= base_url('user/e_commerce') ?>" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720Zm-720 80h640v-80H160v80Zm0 160v240h640v-240H160Zm0 240v-480 480Z"/></svg>
                                 <span class="text-lg">e-Commerce</span>
                             </a>
@@ -156,7 +156,7 @@
 
             <!-- Tanya FT Section -->
              <section class="mb-6">
-                <a href="../e-response" class="text-blue-500 mb-4 text-2x1 inline-block">Kembali</a> <br>
+             <a href="<?= base_url('user/e_response') ?>" class="text-blue-500 mb-4 text-2x1 inline-block">Kembali</a> <br>
                 <div class="flex mb-4">
                     <img src="/assets/images/campusphoto.png" alt="Tanya FT" class="rounded-md w-1/4 h-auto mr-4">
                     <div>

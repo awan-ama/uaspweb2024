@@ -176,7 +176,7 @@
 
             <!-- Form Section -->
             <section class="mb-6">
-                <a href="../tanyaFT" class="text-blue-500 mb-4 inline-block">Kembali</a>
+            <a href="<?= base_url('user/e_response/tanyaFT') ?>" class="text-blue-500 mb-4 inline-block">Kembali</a>
                 <h2 class="text-2xl font-semibold mb-4">Tambah Pengajuan Tanya FT</h2>
 
                 <?= form_open_multipart('user/e_response/tanyaFT/new/save', ['method' => 'post', 'id' => 'text-editor']); ?>
