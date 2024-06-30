@@ -21,8 +21,8 @@ class Users extends Migration
             ],
             'department' => [
                 'type' => 'ENUM',
-                'constraint' => ['Teknik Sipil', 'Arsitektur', 'Teknik Pertambangan', 
-                'Teknik Kimia', 'Teknik Lingkungan', 'Teknik Mesin', 'Teknologi Informasi', 'Rekayasa Geologi', 'Rekayasa Elektro'],
+                'constraint' => ['sipil', 'arsitektur', 'tambang', 
+                'Teknik Kimia', 'lingkungan', 'mesin', 'informasi', 'geologi', 'elektro'],
                 'null' => false,
             ],
             'phone' => [
