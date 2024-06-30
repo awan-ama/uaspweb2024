@@ -179,20 +179,26 @@
                 <h2 class="text-2xl font-semibold mb-4">Tambah Pengajuan Tanya FT</h2>
                 <form action="#" class="bg-white p-6 rounded-lg shadow-md">
                     <div class="mb-4">
-                        <label for="nama" class="block text-gray-700 font-semibold mb-2">Nama Lengkap <span class="text-red-500">*</span></label>
-                        <input type="text" id="nama" name="nama" class="input-gray w-full rounded-md shadow-sm" value="Maulana">
+                        <label for="fullname" class="block text-gray-700 font-semibold mb-2">Nama Lengkap <span class="text-red-500">*</span></label>
+                        <input type="text" id="fullname" name="fullname" class="input-gray w-full rounded-md shadow-sm" value="<?= $fullname ?>">
                     </div>
                     <div class="mb-4">
                         <label for="nim" class="block text-gray-700 font-semibold mb-2">NIM <span class="text-red-500">*</span></label>
-                        <input type="text" id="nim" name="nim" class="input-gray w-full rounded-md shadow-sm" value="2010917300008">
+                        <input type="text" id="nim" name="nim" class="input-gray w-full rounded-md shadow-sm" value="<?= $nim ?>">
                     </div>
                     <div class="mb-4">
-                        <label for="program_studi" class="block text-gray-700 font-semibold mb-2">Program Studi <span class="text-red-500">*</span></label>
-                        <select id="program_studi" name="program_studi" class="input-gray w-full rounded-md shadow-sm">
-                            <option value="Teknologi Informasi">Teknologi Informasi</option>
-                            <option value="Teknik Sipil">Teknik Sipil</option>
-                            <option value="Teknik Mesin">Teknik Mesin</option>
-                            <option value="Teknik Elektro">Teknik Elektro</option>
+                        <label for="department" class="block text-gray-700 font-semibold mb-2">Program Studi <span class="text-red-500">*</span></label>
+                        <select id="department" name="department" class="input-gray w-full rounded-md shadow-sm">
+                           <option value="">Pilih Program Studi</option>
+                           <option value="sipil">Teknik Sipil</option>
+                           <option value="arsitektur">Arsitektur</option>
+                           <option value="tambang">Teknik Pertambangan</option>
+                           <option value="kimia">Teknik Kimia</option>
+                           <option value="lingkungan">Teknik Lingkungan</option>
+                           <option value="mesin">Teknik Mesin</option>
+                           <option value="informasi">Teknologi Informasi</option>
+                           <option value="geologi">Rekayasa Geologi</option>
+                           <option value="elektro">Rekayasa Elektro</option>
                         </select>
                     </div>
                     <div class="mb-4">

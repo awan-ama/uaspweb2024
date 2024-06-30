@@ -55,7 +55,9 @@ class User extends BaseController
     }
     public function pengajuanTanyaFT(){
         $data = [
-            'fullname' => $this->session->get('fullname')
+            'fullname' => $this->session->get('fullname'),
+            'nim' => $this->session->get('nim'),
+            'department' => $this->session->get('department')
         ];
         return view('tanyaft_pengajuan', $data);
     }
