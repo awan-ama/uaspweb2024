@@ -17,7 +17,7 @@ class Login extends BaseController
         $data = [
             'title' => 'Login Page'
         ];
-        return view('login_view', $data);
+        return view('login', $data);
     }
 
     public function save()
@@ -58,6 +58,6 @@ class Login extends BaseController
         ];
 
         session()->set($userData);
-        return redirect()->to(base_url('/'));
+        return redirect()->to(base_url('user/dashboard'));
     }
 }

@@ -1,12 +1,13 @@
 <?php
 
 use CodeIgniter\Router\RouteCollection;
+use PHPUnit\Util\Filter;
 
 /**
  * @var RouteCollection $routes
  */
 
-$routes->group('login', function ($routes) {
+$routes->group('login', ['filter' => 'redirectIfAuthenticated'], function ($routes) {
    $routes->get('/', 'Login::login');
    $routes->post('/', 'Login::save');
 });
@@ -16,7 +17,7 @@ $routes->group('register', function ($routes) {
     $routes->post('/', 'Register::save');
 });
 
-$routes->group('user', function ($routes) {
+$routes->group('user', ['filter' => 'authenticate'], function ($routes) {
      $routes->get('dashboard', 'User::dashboard');
      $routes->get('e_services','User::eServices');
      $routes->get('e_command_center','User::eCommandCenter');
