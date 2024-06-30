@@ -46,4 +46,8 @@ class Home extends BaseController
     // public function respontanya(){
     //     return view('response-tanyaft_view');
     // }
+    public function detail(){
+        return view('detail_pengajuan');
+    }
+    
 }

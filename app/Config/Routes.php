@@ -6,6 +6,7 @@ use PHPUnit\Util\Filter;
 /**
  * @var RouteCollection $routes
  */
+$routes->get('detail','Home::detail');
 
  $routes->get('/', function() {
     return redirect()->to('/login');

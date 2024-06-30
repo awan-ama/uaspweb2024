@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-Services</title>
+    <title>e-Response Detail</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .card {
@@ -30,6 +30,9 @@
             height: 100%;
             overflow-y: auto;
         }
+        .bg-gray-custom {
+            background-color: #E1E8F0;
+        }
     </style>
 </head>
 
@@ -50,9 +53,7 @@
                     <ul>
                         <li class="mb-4">
                             <a href="dashboard" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
-                                <path d="M520-600v-240h320v240H520ZM120-440v-400h320v400H120Zm400 320v-400h320v400H520Zm-400 0v-240h320v240H120Zm80-400h160v-240H200v240Zm400 320h160v-240H600v240Zm0-480h160v-80H600v80ZM200-200h160v-80H200v80Zm160-320Zm240-160Zm0 240ZM360-280Z"/>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M520-600v-240h320v240H520ZM120-440v-400h320v400H120Zm400 320v-400h320v400H520Zm-400 0v-240h320v240H120Zm80-400h160v-240H200v240Zm400 320h160v-240H600v240Zm0-480h160v-80H600v80ZM200-200h160v-80H200v80Zm160-320Zm240-160Zm0 240ZM360-280Z"/></svg>
                                 <span class="text-lg">Dashboard</span>
                             </a>
                         </li>
@@ -70,7 +71,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="e_command_center" class="flex items-center text-blue-500 font-bold bg-blue-100 p-3 rounded">
+                            <a href="e_command_center" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
                                 </svg>
@@ -86,7 +87,7 @@
                             </a>
                         </li>
                         <li class="mb-4">
-                            <a href="e_commerce" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
+                            <a href="e_commerce" class="flex items-center text-blue-500 font-bold bg-blue-100 p-3 rounded">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h16v16H4z" />
                                 </svg>
@@ -104,7 +105,7 @@
                     </ul>
                 </div>
                 <div>
-                    <span class="text-gray-500 uppercase text-xs">Other</span>
+                <span class="text-gray-500 uppercase text-xs">Other</span>
                     <ul>
                         <li class="mb-4">
                             <a href="#" class="flex items-center text-gray-700 p-3 rounded hover:bg-gray-100">
@@ -165,28 +166,43 @@
                     </div>
                 </div>
             </header>
-
-            <!-- e-Services Section -->
+            <!-- Detail Pengajuan Section -->
             <section class="mb-6">
-                <h2 class="text-2xl font-semibold mb-4">Layanan e-Command Center</h2>
-                <p>Inovasi Sistem informasi Capaian Kinerja FT ULM</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <!-- Card 1 -->
-                    <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 1" class="rounded-t-md h-32 w-full object-cover">
-                        <div class="p-4">
-                            <h3 class="text-lg font-bold">aplikasi Si GESIT</h3>
-                            <p class="mt-2">Aplikasi berbasis mobile yang akan mempermudah kamu untuk mengakses layanan FT ULM</p>
+                <div class="bg-white p-6 rounded-md shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4">Detail Pengajuan Surat Rekomendasi Mahasiswa</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-gray-700">ID Pengajuan</label>
+                            <div class="bg-gray-custom p-3 rounded-md">SKM-231</div>
                         </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="bg-white p-4 rounded-md shadow-md card">
-                        <img src="/assets/images/orang.jpeg" alt="Layanan 2" class="rounded-t-md h-32 w-full object-cover">
-                        <div class="p-4">
-                            <h3 class="text-lg font-bold">FT e-Command Center</h3>
-                            <p class="mt-2">(Coming soon)</p>
+                        <div>
+                            <label class="block text-gray-700">Status Pengajuan</label>
+                            <div class="bg-green-100 text-green-700 p-3 rounded-md">Disetujui</div>
                         </div>
-                    </div>
+                        <div>
+                            <label class="block text-gray-700">Tanggal Pengajuan</label>
+                            <div class="bg-gray-custom p-3 rounded-md">4 Februari 2024</div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700">Nama Lengkap</label>
+                            <div class="bg-gray-custom p-3 rounded-md">Maulana</div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700">NIM</label>
+                            <div class="bg-gray-custom p-3 rounded-md">2010817310008</div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700">Program Studi</label>
+                            <div class="bg-gray-custom p-3 rounded-md">Teknologi Informasi</div>
+                        </div>
+                        <div class="">
+                            <label class="block text-gray-700">Pertanyaan</label>
+                            <div class="bg-gray-custom p-3 rounded-md">Apa saja keuntungan layanan FT ULM yang baru dibuat ini?</div>
+                        </div>
+                        <div class="">
+                            <label class="block text-gray-700">Berkas Pendukung</label>
+                            <div class="bg-gray-custom p-3 rounded-md"><a href="#" class="text-blue-500">Cek File</a></div>
+                        </div>
                     </div>
                 </div>
             </section>
