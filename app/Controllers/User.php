@@ -1,41 +1,76 @@
 <?php
 namespace App\Controllers;
+use App\Models\UserModel;
 
 class User extends BaseController
 {
+
+    public function __construct()
+    {
+        $this->model = new UserModel();
+        $this->session = session();
+    }
+
     public function dashboard()
     {
-        return view('dashboard');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('dashboard', $data);
     }
     
     public function eServices()
     {
-        return view('e_services');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('e_services', $data);
     }
     public function eCommandCenter()
     {
-        return view('e_command_center');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('e_command_center', $data);
     }
     public function eResponse(){
-        return view('e_response');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('e_response', $data);
     }
 
     public function eCommerce(){
-        return view('e_commerce');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('e_commerce', $data);
     }
 
     public function tanyaFT(){
-        return view('tanyaft');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('tanyaft', $data);
     }
     public function pengajuanTanyaFT(){
-        return view('tanyaft_pengajuan');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('tanyaft_pengajuan', $data);
     }
 
     public function detailTanyaFT(){
-        return view('tanyaft_detail');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('tanyaft_detail', $data);
     }
 
     public function tanggapanTanyaFT(){
-        return view('tanyaft_response');
+        $data = [
+            'fullname' => $this->session->get('fullname')
+        ];
+        return view('tanyaft_response', $data);
     }
 }

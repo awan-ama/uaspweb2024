@@ -167,8 +167,8 @@
                         <span class="absolute top-0 right-0 inline-flex items-center justify-center h-5 w-5 rounded-full bg-red-500 text-white text-xs">1</span>
                     </button>
                     <div class="flex items-center">
-                        <span class="mr-4">Maulana</span>
                         <img src="/assets/images/lego man.jpg" alt="Profile" class="h-10 w-10 rounded-full">
+                        <span class="mr-4"><?= $fullname ?></span>
                     </div>
                 </div>
             </header>
